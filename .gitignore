@@ -1,0 +1,15 @@
+# LaTeX / tectonic build output (paper/ only: *.log files elsewhere are evidence)
+paper/*.log
+paper/*.blg
+paper/*.aux
+paper/*.out
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# local outputs of the build and audit
+paper/public_bundle/
+audit_ci.txt
+# the withheld price data, if regenerated locally (compare its hash with EXCLUDED.SHA256SUMS.txt)
+data/xauusd_m5_full.csv

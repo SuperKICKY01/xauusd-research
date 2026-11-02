@@ -1,0 +1,138 @@
+{
+  "t_stat_threshold": 2.5,
+  "all_passed": false,
+  "windows": [
+    {
+      "name": "W1",
+      "train_start": "2024-01-01T00:00:00",
+      "train_end": "2024-12-31T00:00:00",
+      "test_start": "2025-01-01T00:00:00",
+      "test_end": "2025-06-30T00:00:00",
+      "passed": false,
+      "metrics": {
+        "trades": 44,
+        "wins": 12,
+        "losses": 24,
+        "be_exits": 5,
+        "timeouts": 3,
+        "win_rate_pct": 27.27,
+        "net_pnl": -810.71,
+        "gross_win": 6993.88,
+        "gross_loss": -8238.52,
+        "profit_factor": 0.849,
+        "expectancy_per_trade": -18.43,
+        "t_stat": -0.298,
+        "avg_rr_realised": -0.038,
+        "max_drawdown_pct": 3.997,
+        "longest_win_streak": 3,
+        "longest_loss_streak": 6,
+        "initial_balance": 100000.0,
+        "final_balance": 99189.29,
+        "return_pct": -0.811,
+        "commission_paid": 0.0,
+        "swap_paid": 0.0,
+        "total_costs": 0.0,
+        "score_buckets": {
+          "75-84": {
+            "trades": 32,
+            "win_rate": 25.0,
+            "pnl": -1055.14
+          },
+          "85-100": {
+            "trades": 12,
+            "win_rate": 33.3,
+            "pnl": 244.43
+          }
+        }
+      }
+    },
+    {
+      "name": "W2",
+      "train_start": "2024-01-01T00:00:00",
+      "train_end": "2025-06-30T00:00:00",
+      "test_start": "2025-07-01T00:00:00",
+      "test_end": "2025-12-31T00:00:00",
+      "passed": false,
+      "metrics": {
+        "trades": 46,
+        "wins": 16,
+        "losses": 20,
+        "be_exits": 3,
+        "timeouts": 7,
+        "win_rate_pct": 34.78,
+        "net_pnl": 5380.57,
+        "gross_win": 10097.4,
+        "gross_loss": -7150.97,
+        "profit_factor": 1.412,
+        "expectancy_per_trade": 116.97,
+        "t_stat": 1.706,
+        "avg_rr_realised": 0.344,
+        "max_drawdown_pct": 1.616,
+        "longest_win_streak": 4,
+        "longest_loss_streak": 4,
+        "initial_balance": 100000.0,
+        "final_balance": 105380.57,
+        "return_pct": 5.381,
+        "commission_paid": 0.0,
+        "swap_paid": 0.0,
+        "total_costs": 0.0,
+        "score_buckets": {
+          "75-84": {
+            "trades": 34,
+            "win_rate": 29.4,
+            "pnl": 3368.72
+          },
+          "85-100": {
+            "trades": 12,
+            "win_rate": 50.0,
+            "pnl": 2011.85
+          }
+        }
+      }
+    },
+    {
+      "name": "W3",
+      "train_start": "2024-01-01T00:00:00",
+      "train_end": "2025-12-31T00:00:00",
+      "test_start": "2026-01-01T00:00:00",
+      "test_end": "2026-05-31T00:00:00",
+      "passed": false,
+      "metrics": {
+        "trades": 52,
+        "wins": 20,
+        "losses": 22,
+        "be_exits": 3,
+        "timeouts": 7,
+        "win_rate_pct": 38.46,
+        "net_pnl": 8441.19,
+        "gross_win": 13924.65,
+        "gross_loss": -8532.05,
+        "profit_factor": 1.632,
+        "expectancy_per_trade": 162.33,
+        "t_stat": 2.215,
+        "avg_rr_realised": 0.438,
+        "max_drawdown_pct": 2.478,
+        "longest_win_streak": 6,
+        "longest_loss_streak": 6,
+        "initial_balance": 100000.0,
+        "final_balance": 108441.19,
+        "return_pct": 8.441,
+        "commission_paid": 0.0,
+        "swap_paid": 0.0,
+        "total_costs": 0.0,
+        "score_buckets": {
+          "75-84": {
+            "trades": 42,
+            "win_rate": 35.7,
+            "pnl": 6499.79
+          },
+          "85-100": {
+            "trades": 10,
+            "win_rate": 50.0,
+            "pnl": 1941.4
+          }
+        }
+      }
+    }
+  ]
+}

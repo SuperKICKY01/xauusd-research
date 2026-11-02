@@ -1,0 +1,90 @@
+======================================================================================
+PORTFOLIO TSMOM — PHASE 2 HARDENING  |  seed=42  |  headline L=252 tanh
+======================================================================================
+Instruments: 41 (37 ex-crypto)  frictions: 5bp ETF / 8bp crypto / 1%yr short-borrow
+
+######################################################################################
+# TEST 1 (ex-crypto) x TEST 3 (modern era)  — headline, hardened frictions
+######################################################################################
+
+ALL (41)   (avg gross leverage 2.5x)
+  universe    era        obs  annSR annRet% maxDD%  aSPY%   a_t    a_p   beta    DSR
+  ALL (41)    full      6803   0.82    11.0  -28.7   10.6  4.17  0.000  0.048  0.962
+  ALL (41)    2010-26   4296   0.72     9.7  -28.7    6.7  2.15  0.031  0.210  0.686
+  ALL (41)    2015-26   2992   0.79    10.4  -28.7    8.3  2.17  0.030  0.157  0.581
+
+EX-CRYPTO   (avg gross leverage 2.5x)
+  universe    era        obs  annSR annRet% maxDD%  aSPY%   a_t    a_p   beta    DSR
+  EX-CRYPTO   full      6803   0.80    10.6  -28.7   10.2  4.03  0.000  0.046  0.949
+  EX-CRYPTO   2010-26   4296   0.68     9.0  -28.7    6.1  1.96  0.050  0.207  0.618
+  EX-CRYPTO   2015-26   2992   0.72     9.6  -28.7    7.4  1.95  0.051  0.153  0.494
+
+  CPCV (config picked on train, OOS):
+    ALL        OOS annSR mean=0.793 median=0.760 %>0=100%  min=0.39
+    EX-CRYPTO  OOS annSR mean=0.765 median=0.738 %>0=100%  min=0.33
+
+######################################################################################
+# TEST 2  FRICTION WATERFALL  (headline ALL universe)
+######################################################################################
+  avg gross leverage = 2.5x  (p95=5.3x) -> Reg-T retail cap is 2x; this book needs futures or portfolio-margin
+  scenario                 full annSR full ret%  2015-26 SR 2015-26 ret%
+  gross (no cost)                0.90      12.1        0.89         11.8
+  + spread 5/8bp                 0.87      11.6        0.84         11.2
+  + short-borrow 1%/yr           0.82      11.0        0.79         10.4
+  + short-borrow 2%/yr           0.78      10.5        0.73          9.7
+  + financing 2.5% (ETF)         0.54       7.2        0.45          6.0
+  NOTE: futures impl -> financing≈0 (carry embedded + collateral interest);
+        the financing line is the ETF/retail-margin case.
+
+######################################################################################
+# TEST 4  EFFECTIVE BREADTH & DEPENDENCE-AWARE SIGNIFICANCE
+######################################################################################
+  avg pairwise corr +0.226  mean active N 29  -> N_eff ~ 4.0
+  NOTE: DSR's N is the TRIAL count (=86), NOT the asset count, so DSR was never
+        inflated by '41'. Breadth enters via the realized series itself. Below:
+        dependence-aware significance on the actual return series.
+  full     annSR=0.82  block-bootstrap SR 90%CI [0.51, 1.13] median 0.82  P(SR>0)=100%  HAC t(mean)=4.44
+  2015-26  annSR=0.79  block-bootstrap SR 90%CI [0.30, 1.24] median 0.79  P(SR>0)=100%  HAC t(mean)=2.77
+
+######################################################################################
+# TEST 5  MULTI-FACTOR SPANNING vs public trend factor (DBMF/KMLM)
+######################################################################################
+
+  [ALL]  corr to DBMF = +0.56  (DBMF sample 2019-05-09→2026-06-17)
+    n=1719  R2=0.405   alpha_ann=+7.11%  t=1.82  p=0.068
+      beta[SPY  ]=+0.126  t=4.14
+      beta[TLT  ]=+0.222  t=8.14
+      beta[DBC  ]=-0.030  t=-1.23
+      beta[DBMF ]=+0.659  t=15.74
+
+  [EX-CRYPTO]  corr to DBMF = +0.56  (DBMF sample 2019-05-09→2026-06-17)
+    n=1719  R2=0.408   alpha_ann=+5.57%  t=1.42  p=0.156
+      beta[SPY  ]=+0.119  t=3.72
+      beta[TLT  ]=+0.237  t=8.37
+      beta[DBC  ]=-0.020  t=-0.77
+      beta[DBMF ]=+0.658  t=15.85
+
+######################################################################################
+# TEST 6  CAPITAL ADEQUACY & EXECUTABLE-SUBSET EDGE
+######################################################################################
+  Executable legs (≥1 whole share; crypto fractional≥$1) vs capital:
+   capital execLegs  ofnote
+  $ 10,000       37  41   (gross-lev 2.5x needs futures/PM; Reg-T caps 2x)
+  $ 25,000       41  41   (gross-lev 2.5x needs futures/PM; Reg-T caps 2x)
+  $ 50,000       41  41   (gross-lev 2.5x needs futures/PM; Reg-T caps 2x)
+  $100,000       41  41   (gross-lev 2.5x needs futures/PM; Reg-T caps 2x)
+
+  Breadth → edge (top-K by history length; hardened frictions, full sample):
+     K  annSR     DSR  cpcvOOS  example dropped-to set
+     6   0.58   0.727    0.481  ETF-only
+    10   0.69   0.865    0.639  ETF-only
+    15   0.75   0.919    0.707  ETF-only
+    25   0.79   0.944    0.746  ETF-only
+    41   0.82   0.962    0.793  +crypto
+
+  Realistic EXECUTABLE retail book (top-12 liquid ETFs+BTC, gross capped ~2x):
+    full     n=13 legs  annSR=0.63  vol=13.4%  CAGR=+8.2%/yr -> $+817/$10k, $+4,083/$50k, $+8,166/$100k
+    2015-26  n=13 legs  annSR=0.66  vol=13.5%  CAGR=+8.6%/yr -> $+859/$10k, $+4,295/$50k, $+8,589/$100k
+    (gross-lev before 2x cap = 1.9x; applied scale 1.00)
+
+======================================================================================

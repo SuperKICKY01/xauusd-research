@@ -1,0 +1,8 @@
+f42335b|2026-07-14T15:10:57Z|Initial commit: harness-v2 baseline (Phase 0 / G0 PASS)
+60f46fd|2026-07-14T15:27:25Z|Phase 1 SPEC FREEZE: zone strategy v1.0 + partitions + trial ledger (G1)
+44bf071|2026-07-15T11:14:20Z|Track G0 calibration evidence JSONs (reviewer request)
+c273980|2026-07-15T11:18:11Z|PROJECT_STATUS: pipeline phase status + EVAL-3 data-refresh pull plan
+8634f34|2026-07-15T11:24:53Z|Spec v1.0 Appendix A: parameter provenance disclosure (reviewer item 2)
+ac719c2|2026-07-15T12:45:40Z|Phase 2: zone engine + runner + CLI + ledger (frozen spec v1.0)
+fb08296|2026-07-15T15:47:18Z|Phase 2 DEV stage: report + ledger rows 1-4 — STOPPED for review
+cc2a676|2026-07-15T15:55:08Z|VERDICT: zone strategy FALSIFIED at DEV — pipeline stopped (user option a)

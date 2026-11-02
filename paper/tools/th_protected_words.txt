@@ -1,0 +1,64 @@
+# Thai words that ICU's dictionary segmentation splits at a line break (found by reviewing every
+# Thai-Thai line junction of main_th.pdf). Each is wrapped in \tw{...} (unbreakable word with a
+# break opportunity on each side): in main_th.tex directly, and in generated Thai captions by
+# paper/tools/captions_to_tex.py. One word per line; lines starting with # are comments.
+# Transliterated loanwords
+ออร์เดอร์บล็อก
+อะซิงโครนัส
+แฟร็กทัล
+มาร์จิน
+เทอร์มินัล
+โปรเซส
+โมเมนตัม
+แพลตฟอร์ม
+สคริปต์
+ดาวน์โหลด
+โบรกเกอร์
+ชาร์ป
+เวอร์ชัน
+ดิจิทัล
+โฟลเดอร์
+ล็อต
+พอร์ต
+ไบต์
+เธรด
+# Native words split at a junction during review
+คำสั่ง
+ได้รับ
+ตัดสินใจ
+ทับซ้อน
+คำแนะนำ
+รายย่อย
+ข้อค้นพบ
+ค้นพบ
+ภาพรวม
+เล็กน้อย
+คลาดเคลื่อน
+ซื้อขาย
+กระทบยอด
+อย่างน้อย
+ความน่าจะเป็น
+ครั้งแรก
+ภาคผนวก
+# Cross-reference words: never separate the word from its number
+ภาพที่
+ตารางที่
+ส่วนที่
+แนวคิดที่
+หลักฐาน
+# Found in the Phase B review (sections 5-8, appendices, captions F1-F7)
+ภายหลัง
+ล่วงหน้า
+กระจาย
+เกิดขึ้น
+ข้อกล่าวอ้าง
+ส่วนชดเชย
+ค่าคาดหมาย
+ตัวกรอง
+ต่ำกว่า
+ภาษาอังกฤษ
+สรุปไม่ได้
+เครื่องมือ
+ตรวจสอบ
+ข้อกำกวม
+คงไว้

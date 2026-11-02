@@ -1,0 +1,3023 @@
+{
+ "collected_utc": "2026-06-19T16:18:54Z",
+ "n_events_pulled": 600,
+ "n_negrisk_multi": 151,
+ "rows": [
+  {
+   "title": "United States vs. Australia",
+   "K": 3,
+   "tags": [
+    "Soccer",
+    "FIFA World Cup",
+    "Games"
+   ],
+   "S_ask": 1.02,
+   "S_bid": 0.99,
+   "S_mid": 1.005,
+   "buy_yes_edge": -0.020000000000000018,
+   "buy_no_edge": -0.010000000000000009,
+   "mid_disloc": -0.004999999999999893,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.010000000000000009,
+   "min_liq": 1378607.2209,
+   "vol24": 6012101.829760119
+  },
+  {
+   "title": "Democratic Presidential Nominee 2028",
+   "K": 45,
+   "tags": [
+    "World Elections",
+    "Global Elections",
+    "Elections"
+   ],
+   "S_ask": 1.019,
+   "S_bid": 0.974,
+   "S_mid": 0.9964999999999999,
+   "buy_yes_edge": -0.018999999999999906,
+   "buy_no_edge": -0.026000000000000023,
+   "mid_disloc": 0.0035000000000000586,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.0010000000000000002,
+   "min_liq": 280482.12297,
+   "vol24": 3756828.3579209996
+  },
+  {
+   "title": "Scotland vs. Morocco",
+   "K": 3,
+   "tags": [
+    "Sports",
+    "Games",
+    "Soccer"
+   ],
+   "S_ask": 1.02,
+   "S_bid": 0.99,
+   "S_mid": 1.005,
+   "buy_yes_edge": -0.020000000000000018,
+   "buy_no_edge": -0.010000000000000009,
+   "mid_disloc": -0.004999999999999893,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.010000000000000009,
+   "min_liq": 1262459.0036,
+   "vol24": 2054705.7499649914
+  },
+  {
+   "title": "Brazil vs. Haiti",
+   "K": 3,
+   "tags": [
+    "FIFA World Cup",
+    "Sports",
+    "Games"
+   ],
+   "S_ask": 1.0110000000000001,
+   "S_bid": 0.999,
+   "S_mid": 1.0050000000000001,
+   "buy_yes_edge": -0.01100000000000012,
+   "buy_no_edge": -0.0010000000000000009,
+   "mid_disloc": -0.0050000000000001155,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.0040000000000000036,
+   "min_liq": 997769.09042,
+   "vol24": 1869713.5467469983
+  },
+  {
+   "title": "Republican Presidential Nominee 2028",
+   "K": 35,
+   "tags": [
+    "Politics",
+    "US Election",
+    "Elections"
+   ],
+   "S_ask": 1.027,
+   "S_bid": 0.991,
+   "S_mid": 1.009,
+   "buy_yes_edge": -0.026999999999999913,
+   "buy_no_edge": -0.009000000000000008,
+   "mid_disloc": -0.008999999999999897,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.0010285714285714286,
+   "min_liq": 242599.14515,
+   "vol24": 1418893.367741
+  },
+  {
+   "title": "Presidential Election Winner 2028",
+   "K": 37,
+   "tags": [
+    "World Elections",
+    "Global Elections",
+    "US Election"
+   ],
+   "S_ask": 1.022,
+   "S_bid": 0.979,
+   "S_mid": 1.0005,
+   "buy_yes_edge": -0.02200000000000002,
+   "buy_no_edge": -0.02100000000000002,
+   "mid_disloc": -0.0004999999999999449,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.0011621621621621622,
+   "min_liq": 221629.29494,
+   "vol24": 1012328.880957
+  },
+  {
+   "title": "United States vs. Australia - Exact Score",
+   "K": 17,
+   "tags": [
+    "Games",
+    "FIFA World Cup",
+    "Soccer"
+   ],
+   "S_ask": 1.1340000000000001,
+   "S_bid": 1.009,
+   "S_mid": 1.0715,
+   "buy_yes_edge": -0.13400000000000012,
+   "buy_no_edge": 0.008999999999999897,
+   "mid_disloc": -0.0714999999999999,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.007352941176470589,
+   "min_liq": 47881.11752,
+   "vol24": 1011255.0674179989
+  },
+  {
+   "title": "IEM Cologne Major 2026 Winner",
+   "K": 6,
+   "tags": [
+    "IEM Cologne",
+    "Sports",
+    "counter strike 2"
+   ],
+   "S_ask": 1.03,
+   "S_bid": 0.915,
+   "S_mid": 0.9725,
+   "buy_yes_edge": -0.030000000000000027,
+   "buy_no_edge": -0.08499999999999996,
+   "mid_disloc": 0.02749999999999997,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.01916666666666666,
+   "min_liq": 46645.0824,
+   "vol24": 872126.8304399998
+  },
+  {
+   "title": "T\u00fcrkiye vs. Paraguay",
+   "K": 3,
+   "tags": [
+    "Sports",
+    "Games",
+    "Soccer"
+   ],
+   "S_ask": 1.01,
+   "S_bid": 0.98,
+   "S_mid": 0.995,
+   "buy_yes_edge": -0.010000000000000009,
+   "buy_no_edge": -0.020000000000000018,
+   "mid_disloc": 0.0050000000000000044,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.009999999999999972,
+   "min_liq": 1333735.0593,
+   "vol24": 771280.1224170018
+  },
+  {
+   "title": "Next French Presidential Election",
+   "K": 36,
+   "tags": [
+    "Elections",
+    "Global Elections",
+    "World"
+   ],
+   "S_ask": 0.984,
+   "S_bid": 0.91,
+   "S_mid": 0.9470000000000001,
+   "buy_yes_edge": 0.016000000000000014,
+   "buy_no_edge": -0.08999999999999997,
+   "mid_disloc": 0.052999999999999936,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.002055555555555556,
+   "min_liq": 121131.3345,
+   "vol24": 725119.733399
+  },
+  {
+   "title": "Fed Decision in July?",
+   "K": 5,
+   "tags": [
+    "fomc",
+    "Economic Policy",
+    "Economy"
+   ],
+   "S_ask": 1.018,
+   "S_bid": 1.002,
+   "S_mid": 1.01,
+   "buy_yes_edge": -0.018000000000000016,
+   "buy_no_edge": 0.0020000000000000018,
+   "mid_disloc": -0.010000000000000009,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.003200000000000002,
+   "min_liq": 139353.60958,
+   "vol24": 624707.5500280005
+  },
+  {
+   "title": "Who will be the next Prime Minister of Israel after the next",
+   "K": 18,
+   "tags": [
+    "Politics",
+    "Middle East",
+    "Israel"
+   ],
+   "S_ask": 0.99,
+   "S_bid": 0.9390000000000001,
+   "S_mid": 0.9645,
+   "buy_yes_edge": 0.010000000000000009,
+   "buy_no_edge": -0.06099999999999994,
+   "mid_disloc": 0.035499999999999976,
+   "max_fee": 0.0,
+   "min_fee": 0.0,
+   "mean_spread": 0.00283333333333333,
+   "min_liq": 46227.5913,
+   "vol24": 595735.370978
+  },
+  {
+   "title": "WNBA: 2026 Rookie of the Year",
+   "K": 16,
+   "tags": [
+    "Awards",
+    "WNBA",
+    "Basketball"
+   ],
+   "S_ask": 1.123,
+   "S_bid": 0.9560000000000001,
+   "S_mid": 1.0395,
+   "buy_yes_edge": -0.123,
+   "buy_no_edge": -0.04399999999999993,
+   "mid_disloc": -0.03950000000000009,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.0104375,
+   "min_liq": 1360.89468,
+   "vol24": 494377.701
+  },
+  {
+   "title": "Brazil Presidential Election",
+   "K": 17,
+   "tags": [
+    "Brazil",
+    "Global Elections",
+    "World Elections"
+   ],
+   "S_ask": 1.009,
+   "S_bid": 0.978,
+   "S_mid": 0.9934999999999999,
+   "buy_yes_edge": -0.008999999999999897,
+   "buy_no_edge": -0.02200000000000002,
+   "mid_disloc": 0.006500000000000061,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.0018235294117647065,
+   "min_liq": 214925.56559,
+   "vol24": 407417.107717
+  },
+  {
+   "title": "Brazil vs. Haiti - Exact Score",
+   "K": 17,
+   "tags": [
+    "Sports",
+    "Soccer",
+    "Games"
+   ],
+   "S_ask": 1.117,
+   "S_bid": 1.0070000000000001,
+   "S_mid": 1.062,
+   "buy_yes_edge": -0.11699999999999999,
+   "buy_no_edge": 0.007000000000000117,
+   "mid_disloc": -0.062000000000000055,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.006470588235294119,
+   "min_liq": 48915.4424,
+   "vol24": 374584.34674400016
+  },
+  {
+   "title": "Czechia vs. Mexico",
+   "K": 3,
+   "tags": [
+    "Sports",
+    "FIFA World Cup",
+    "Games"
+   ],
+   "S_ask": 1.02,
+   "S_bid": 0.99,
+   "S_mid": 1.005,
+   "buy_yes_edge": -0.020000000000000018,
+   "buy_no_edge": -0.010000000000000009,
+   "mid_disloc": -0.004999999999999893,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.010000000000000009,
+   "min_liq": 141115.948,
+   "vol24": 330765.1402089999
+  },
+  {
+   "title": "F1 Drivers' Champion",
+   "K": 22,
+   "tags": [
+    "Sports",
+    "Formula 1",
+    "f1"
+   ],
+   "S_ask": 1.01,
+   "S_bid": 0.975,
+   "S_mid": 0.9924999999999999,
+   "buy_yes_edge": -0.010000000000000009,
+   "buy_no_edge": -0.025000000000000022,
+   "mid_disloc": 0.007500000000000062,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.00159090909090909,
+   "min_liq": 77801.1498,
+   "vol24": 315585.082701
+  },
+  {
+   "title": "Scotland vs. Morocco - Exact Score",
+   "K": 17,
+   "tags": [
+    "Sports",
+    "Soccer",
+    "Games"
+   ],
+   "S_ask": 1.1500000000000001,
+   "S_bid": 1.005,
+   "S_mid": 1.0775000000000001,
+   "buy_yes_edge": -0.15000000000000013,
+   "buy_no_edge": 0.004999999999999893,
+   "mid_disloc": -0.07750000000000012,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.008529411764705884,
+   "min_liq": 54068.77696,
+   "vol24": 305487.54250000004
+  },
+  {
+   "title": "MLB: Runs Leader",
+   "K": 28,
+   "tags": [
+    "MLB",
+    "baseball",
+    "Runs leader"
+   ],
+   "S_ask": 0.864,
+   "S_bid": 0.453,
+   "S_mid": 0.6585,
+   "buy_yes_edge": 0.136,
+   "buy_no_edge": -0.5469999999999999,
+   "mid_disloc": 0.3415,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.014678571428571428,
+   "min_liq": 492.33744,
+   "vol24": 260304.24
+  },
+  {
+   "title": "How many Fed rate cuts in 2026?",
+   "K": 13,
+   "tags": [
+    "Business",
+    "Fed Rates",
+    "Jerome Powell"
+   ],
+   "S_ask": 1.012,
+   "S_bid": 0.986,
+   "S_mid": 0.9989999999999999,
+   "buy_yes_edge": -0.01200000000000001,
+   "buy_no_edge": -0.014000000000000012,
+   "mid_disloc": 0.001000000000000112,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.0019999999999999996,
+   "min_liq": 74603.55993,
+   "vol24": 230173.75905800005
+  },
+  {
+   "title": "Germany vs. C\u00f4te d'Ivoire",
+   "K": 3,
+   "tags": [
+    "Soccer",
+    "FIFA World Cup",
+    "Sports"
+   ],
+   "S_ask": 1.02,
+   "S_bid": 0.99,
+   "S_mid": 1.0050000000000001,
+   "buy_yes_edge": -0.020000000000000018,
+   "buy_no_edge": -0.010000000000000009,
+   "mid_disloc": -0.0050000000000001155,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.01,
+   "min_liq": 553861.9959,
+   "vol24": 215518.35942299993
+  },
+  {
+   "title": "Pro Football: 2027 AFC Champion ",
+   "K": 16,
+   "tags": [
+    "football",
+    "Sports",
+    "AFC"
+   ],
+   "S_ask": 1.036,
+   "S_bid": 0.898,
+   "S_mid": 0.9670000000000001,
+   "buy_yes_edge": -0.03600000000000003,
+   "buy_no_edge": -0.10199999999999998,
+   "mid_disloc": 0.03299999999999992,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.008625000000000002,
+   "min_liq": 26656.01484,
+   "vol24": 191049.840054
+  },
+  {
+   "title": "NFL Champion 2027",
+   "K": 32,
+   "tags": [
+    "Sports",
+    "NFL",
+    "football"
+   ],
+   "S_ask": 1.024,
+   "S_bid": 0.9590000000000001,
+   "S_mid": 0.9915,
+   "buy_yes_edge": -0.02400000000000002,
+   "buy_no_edge": -0.040999999999999925,
+   "mid_disloc": 0.008499999999999952,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.00203125,
+   "min_liq": 59814.65364,
+   "vol24": 186311.07317499997
+  },
+  {
+   "title": "Netherlands vs. Sweden",
+   "K": 3,
+   "tags": [
+    "Sports",
+    "Games",
+    "Soccer"
+   ],
+   "S_ask": 1.02,
+   "S_bid": 0.99,
+   "S_mid": 1.0050000000000001,
+   "buy_yes_edge": -0.020000000000000018,
+   "buy_no_edge": -0.010000000000000009,
+   "mid_disloc": -0.0050000000000001155,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.01,
+   "min_liq": 453989.6776,
+   "vol24": 181098.77054099977
+  },
+  {
+   "title": "United States vs. Australia - Halftime Result",
+   "K": 3,
+   "tags": [
+    "Soccer",
+    "Sports",
+    "FIFA World Cup"
+   ],
+   "S_ask": 1.03,
+   "S_bid": 1.0,
+   "S_mid": 1.0150000000000001,
+   "buy_yes_edge": -0.030000000000000027,
+   "buy_no_edge": 0.0,
+   "mid_disloc": -0.015000000000000124,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.01,
+   "min_liq": 200643.4988,
+   "vol24": 179280.48140099997
+  },
+  {
+   "title": "Which party will gain most seats in Russian Parliamentary El",
+   "K": 7,
+   "tags": [
+    "World Elections",
+    "Elections",
+    "Global Elections"
+   ],
+   "S_ask": 1.016,
+   "S_bid": 0.9830000000000001,
+   "S_mid": 0.9995,
+   "buy_yes_edge": -0.016000000000000014,
+   "buy_no_edge": -0.016999999999999904,
+   "mid_disloc": 0.0004999999999999449,
+   "max_fee": 0.0,
+   "min_fee": 0.0,
+   "mean_spread": 0.004714285714285715,
+   "min_liq": 64258.31608,
+   "vol24": 178700.73596
+  },
+  {
+   "title": "MLB World Series Champion 2026",
+   "K": 30,
+   "tags": [
+    "MLB",
+    "Sports",
+    "MLB Playoffs"
+   ],
+   "S_ask": 1.022,
+   "S_bid": 0.9460000000000001,
+   "S_mid": 0.9840000000000001,
+   "buy_yes_edge": -0.02200000000000002,
+   "buy_no_edge": -0.05399999999999994,
+   "mid_disloc": 0.015999999999999903,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.002533333333333332,
+   "min_liq": 31975.86321,
+   "vol24": 173584.526112
+  },
+  {
+   "title": "Ecuador vs. Cura\u00e7ao",
+   "K": 3,
+   "tags": [
+    "Sports",
+    "Games",
+    "Soccer"
+   ],
+   "S_ask": 1.02,
+   "S_bid": 0.999,
+   "S_mid": 1.0095,
+   "buy_yes_edge": -0.020000000000000018,
+   "buy_no_edge": -0.0010000000000000009,
+   "mid_disloc": -0.009500000000000064,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.007000000000000006,
+   "min_liq": 388219.7315,
+   "vol24": 172872.129843
+  },
+  {
+   "title": "Spain vs. Saudi Arabia",
+   "K": 3,
+   "tags": [
+    "Sports",
+    "Games",
+    "Soccer"
+   ],
+   "S_ask": 1.019,
+   "S_bid": 0.997,
+   "S_mid": 1.008,
+   "buy_yes_edge": -0.018999999999999906,
+   "buy_no_edge": -0.0030000000000000027,
+   "mid_disloc": -0.008000000000000007,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.007333333333333335,
+   "min_liq": 498162.92708,
+   "vol24": 142218.96488699998
+  },
+  {
+   "title": "Which continent will win the World Cup?",
+   "K": 6,
+   "tags": [
+    "Sports",
+    "World",
+    "world cup"
+   ],
+   "S_ask": 1.01,
+   "S_bid": 0.981,
+   "S_mid": 0.9954999999999999,
+   "buy_yes_edge": -0.010000000000000009,
+   "buy_no_edge": -0.019000000000000017,
+   "mid_disloc": 0.0045000000000000595,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.004833333333333332,
+   "min_liq": 103278.21418,
+   "vol24": 139835.93886
+  },
+  {
+   "title": "T\u00fcrkiye vs. Paraguay - Exact Score",
+   "K": 17,
+   "tags": [
+    "Sports",
+    "Soccer",
+    "Games"
+   ],
+   "S_ask": 1.164,
+   "S_bid": 1.014,
+   "S_mid": 1.089,
+   "buy_yes_edge": -0.16399999999999992,
+   "buy_no_edge": 0.014000000000000012,
+   "mid_disloc": -0.08899999999999997,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.008823529411764706,
+   "min_liq": 40807.046,
+   "vol24": 138745.02871600003
+  },
+  {
+   "title": "T\u00fcrkiye vs. Paraguay - Exact Score",
+   "K": 17,
+   "tags": [
+    "Sports",
+    "Soccer",
+    "Games"
+   ],
+   "S_ask": 1.164,
+   "S_bid": 1.0090000000000001,
+   "S_mid": 1.0865,
+   "buy_yes_edge": -0.16399999999999992,
+   "buy_no_edge": 0.009000000000000119,
+   "mid_disloc": -0.08650000000000002,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.009117647058823529,
+   "min_liq": 37564.9013,
+   "vol24": 135944.24749700003
+  },
+  {
+   "title": "Highest grossing movie in 2026?",
+   "K": 14,
+   "tags": [
+    "Culture",
+    "Movies",
+    "Rewards 20, 4.5, 50"
+   ],
+   "S_ask": 0.997,
+   "S_bid": 0.911,
+   "S_mid": 0.954,
+   "buy_yes_edge": 0.0030000000000000027,
+   "buy_no_edge": -0.08899999999999997,
+   "mid_disloc": 0.04600000000000004,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.006142857142857144,
+   "min_liq": 39551.3772,
+   "vol24": 133749.75923300002
+  },
+  {
+   "title": "F1 Constructors' Champion",
+   "K": 11,
+   "tags": [
+    "Formula 1",
+    "Sports",
+    "f1"
+   ],
+   "S_ask": 1.018,
+   "S_bid": 0.996,
+   "S_mid": 1.007,
+   "buy_yes_edge": -0.018000000000000016,
+   "buy_no_edge": -0.0040000000000000036,
+   "mid_disloc": -0.006999999999999895,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.002000000000000001,
+   "min_liq": 47389.8676,
+   "vol24": 118833.68760300001
+  },
+  {
+   "title": "World Cup Group E Winner",
+   "K": 4,
+   "tags": [
+    "world cup",
+    "Sports",
+    "Soccer"
+   ],
+   "S_ask": 0.983,
+   "S_bid": 0.963,
+   "S_mid": 0.973,
+   "buy_yes_edge": 0.017000000000000015,
+   "buy_no_edge": -0.03700000000000003,
+   "mid_disloc": 0.027000000000000024,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.005000000000000003,
+   "min_liq": 68300.84283,
+   "vol24": 112842.21034499997
+  },
+  {
+   "title": "Which company has best AI model end of July?",
+   "K": 15,
+   "tags": [
+    "Tech",
+    "AI"
+   ],
+   "S_ask": 1.06,
+   "S_bid": 0.994,
+   "S_mid": 1.027,
+   "buy_yes_edge": -0.06000000000000005,
+   "buy_no_edge": -0.006000000000000005,
+   "mid_disloc": -0.026999999999999913,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.0044,
+   "min_liq": 18044.7894,
+   "vol24": 111200.55585700001
+  },
+  {
+   "title": "\"Toy Story 5\" Opening Weekend Box Office",
+   "K": 5,
+   "tags": [
+    "box office",
+    "Movies",
+    "Culture"
+   ],
+   "S_ask": 1.036,
+   "S_bid": 0.9490000000000001,
+   "S_mid": 0.9925,
+   "buy_yes_edge": -0.03600000000000003,
+   "buy_no_edge": -0.050999999999999934,
+   "mid_disloc": 0.007499999999999951,
+   "max_fee": 0.0,
+   "min_fee": 0.0,
+   "mean_spread": 0.017400000000000006,
+   "min_liq": 7272.776,
+   "vol24": 102331.232629
+  },
+  {
+   "title": "World Cup Group D Winner",
+   "K": 4,
+   "tags": [
+    "Soccer",
+    "Sports",
+    "world cup"
+   ],
+   "S_ask": 1.025,
+   "S_bid": 1.0030000000000001,
+   "S_mid": 1.014,
+   "buy_yes_edge": -0.02499999999999991,
+   "buy_no_edge": 0.0030000000000001137,
+   "mid_disloc": -0.014000000000000012,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.005499999999999977,
+   "min_liq": 61338.3013,
+   "vol24": 98226.27225700003
+  },
+  {
+   "title": "Tunisia vs. Japan",
+   "K": 3,
+   "tags": [
+    "FIFA World Cup",
+    "Sports",
+    "Games"
+   ],
+   "S_ask": 1.03,
+   "S_bid": 1.0,
+   "S_mid": 1.0150000000000001,
+   "buy_yes_edge": -0.030000000000000027,
+   "buy_no_edge": 0.0,
+   "mid_disloc": -0.015000000000000124,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.01,
+   "min_liq": 432461.6065,
+   "vol24": 98014.09310899966
+  },
+  {
+   "title": "2026 NBA Draft: 3rd Overall Pick",
+   "K": 15,
+   "tags": [
+    "NBA",
+    "2026 NBA Draft",
+    "Basketball"
+   ],
+   "S_ask": 1.114,
+   "S_bid": 0.9199999999999999,
+   "S_mid": 1.017,
+   "buy_yes_edge": -0.1140000000000001,
+   "buy_no_edge": -0.08000000000000007,
+   "mid_disloc": -0.016999999999999904,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.012933333333333337,
+   "min_liq": 1451.5897,
+   "vol24": 97006.369355
+  },
+  {
+   "title": "2026 Men\u2019s Wimbledon Winner",
+   "K": 36,
+   "tags": [
+    "Sports",
+    "Tennis",
+    "ATP"
+   ],
+   "S_ask": 1.054,
+   "S_bid": 0.981,
+   "S_mid": 1.0174999999999998,
+   "buy_yes_edge": -0.05400000000000005,
+   "buy_no_edge": -0.019000000000000017,
+   "mid_disloc": -0.01749999999999985,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.002027777777777778,
+   "min_liq": 13581.40119,
+   "vol24": 93931.17222000001
+  },
+  {
+   "title": "Nobel Peace Prize Winner 2026",
+   "K": 20,
+   "tags": [
+    "Awards",
+    "Politics",
+    "Geopolitics"
+   ],
+   "S_ask": 0.61,
+   "S_bid": 0.533,
+   "S_mid": 0.5715,
+   "buy_yes_edge": 0.39,
+   "buy_no_edge": -0.46699999999999997,
+   "mid_disloc": 0.4285,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.0038500000000000006,
+   "min_liq": 66820.08815,
+   "vol24": 89980.750078
+  },
+  {
+   "title": "South Africa vs. Korea Republic",
+   "K": 3,
+   "tags": [
+    "Games",
+    "FIFA World Cup",
+    "Sports"
+   ],
+   "S_ask": 1.02,
+   "S_bid": 0.99,
+   "S_mid": 1.005,
+   "buy_yes_edge": -0.020000000000000018,
+   "buy_no_edge": -0.010000000000000009,
+   "mid_disloc": -0.004999999999999893,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.010000000000000009,
+   "min_liq": 338511.4491,
+   "vol24": 84564.43663900004
+  },
+  {
+   "title": "France vs. Iraq",
+   "K": 3,
+   "tags": [
+    "Soccer",
+    "Games",
+    "FIFA World Cup"
+   ],
+   "S_ask": 1.0070000000000001,
+   "S_bid": 0.986,
+   "S_mid": 0.9965,
+   "buy_yes_edge": -0.007000000000000117,
+   "buy_no_edge": -0.014000000000000012,
+   "mid_disloc": 0.0034999999999999476,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.007000000000000002,
+   "min_liq": 397229.42142,
+   "vol24": 79659.10419099995
+  },
+  {
+   "title": "NBA: 2027 Champion",
+   "K": 30,
+   "tags": [
+    "NBA Finals",
+    "Basketball",
+    "NBA"
+   ],
+   "S_ask": 1.1,
+   "S_bid": 1.008,
+   "S_mid": 1.054,
+   "buy_yes_edge": -0.10000000000000009,
+   "buy_no_edge": 0.008000000000000007,
+   "mid_disloc": -0.05400000000000005,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.0030666666666666663,
+   "min_liq": 70804.29457,
+   "vol24": 74821.223447
+  },
+  {
+   "title": "United States vs. Australia - First Team to Score",
+   "K": 3,
+   "tags": [
+    "Sports",
+    "Games",
+    "Soccer"
+   ],
+   "S_ask": 1.01,
+   "S_bid": 0.9700000000000001,
+   "S_mid": 0.9900000000000001,
+   "buy_yes_edge": -0.010000000000000009,
+   "buy_no_edge": -0.029999999999999916,
+   "mid_disloc": 0.009999999999999898,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.013333333333333341,
+   "min_liq": 48950.2216,
+   "vol24": 65445.304589000014
+  },
+  {
+   "title": "MLB: 2026 National League Champion",
+   "K": 15,
+   "tags": [
+    "American League",
+    "MLB",
+    "Sports"
+   ],
+   "S_ask": 1.053,
+   "S_bid": 0.98,
+   "S_mid": 1.0165,
+   "buy_yes_edge": -0.052999999999999936,
+   "buy_no_edge": -0.020000000000000018,
+   "mid_disloc": -0.01649999999999996,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.004866666666666663,
+   "min_liq": 17750.3019,
+   "vol24": 64843.214105
+  },
+  {
+   "title": "Venezuela leader end of 2026?",
+   "K": 16,
+   "tags": [
+    "Trump-Machado",
+    "Venezuela",
+    "Trump"
+   ],
+   "S_ask": 1.005,
+   "S_bid": 0.977,
+   "S_mid": 0.9909999999999999,
+   "buy_yes_edge": -0.004999999999999893,
+   "buy_no_edge": -0.02300000000000002,
+   "mid_disloc": 0.009000000000000119,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.0017500000000000005,
+   "min_liq": 43030.572,
+   "vol24": 64282.85072299999
+  },
+  {
+   "title": "Fed Decision in September?",
+   "K": 5,
+   "tags": [
+    "fomc",
+    "Economic Policy",
+    "Jerome Powell"
+   ],
+   "S_ask": 0.988,
+   "S_bid": 0.9319999999999999,
+   "S_mid": 0.96,
+   "buy_yes_edge": 0.01200000000000001,
+   "buy_no_edge": -0.06800000000000006,
+   "mid_disloc": 0.040000000000000036,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.011200000000000005,
+   "min_liq": 50875.4249,
+   "vol24": 64031.745152
+  },
+  {
+   "title": "MLB: AL Rookie of the Year",
+   "K": 20,
+   "tags": [
+    "rookie",
+    "baseball",
+    "Sports"
+   ],
+   "S_ask": 1.099,
+   "S_bid": 0.87,
+   "S_mid": 0.9845,
+   "buy_yes_edge": -0.09899999999999998,
+   "buy_no_edge": -0.13,
+   "mid_disloc": 0.015499999999999958,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.011450000000000002,
+   "min_liq": 1506.78128,
+   "vol24": 61421.22271400001
+  },
+  {
+   "title": "SpaceX Closing Market Cap End of IPO Month",
+   "K": 7,
+   "tags": [
+    "IPOs",
+    "Tech",
+    "SpaceX"
+   ],
+   "S_ask": 1.051,
+   "S_bid": 1.003,
+   "S_mid": 1.027,
+   "buy_yes_edge": -0.050999999999999934,
+   "buy_no_edge": 0.0029999999999998916,
+   "mid_disloc": -0.026999999999999913,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.006857142857142856,
+   "min_liq": 20255.5785,
+   "vol24": 60253.13272300002
+  },
+  {
+   "title": "World Cup Group C Winner",
+   "K": 4,
+   "tags": [
+    "Sports",
+    "Soccer",
+    "world cup"
+   ],
+   "S_ask": 1.002,
+   "S_bid": 0.975,
+   "S_mid": 0.9884999999999999,
+   "buy_yes_edge": -0.0020000000000000018,
+   "buy_no_edge": -0.025000000000000022,
+   "mid_disloc": 0.011500000000000066,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.006750000000000005,
+   "min_liq": 128152.96989,
+   "vol24": 56180.365775000006
+  },
+  {
+   "title": "Argentina vs. Austria",
+   "K": 3,
+   "tags": [
+    "Sports",
+    "Games",
+    "Soccer"
+   ],
+   "S_ask": 1.02,
+   "S_bid": 0.99,
+   "S_mid": 1.005,
+   "buy_yes_edge": -0.020000000000000018,
+   "buy_no_edge": -0.010000000000000009,
+   "mid_disloc": -0.004999999999999893,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.01,
+   "min_liq": 436716.6174,
+   "vol24": 55898.07186299997
+  },
+  {
+   "title": "MLS Cup Winner 2026",
+   "K": 30,
+   "tags": [
+    "Soccer",
+    "MLS",
+    "Sports"
+   ],
+   "S_ask": 0.9249999999999999,
+   "S_bid": 0.812,
+   "S_mid": 0.8685,
+   "buy_yes_edge": 0.07500000000000007,
+   "buy_no_edge": -0.18799999999999994,
+   "mid_disloc": 0.13149999999999995,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.003766666666666666,
+   "min_liq": 9121.9573,
+   "vol24": 55114.903786999996
+  },
+  {
+   "title": "Switzerland vs. Canada",
+   "K": 3,
+   "tags": [
+    "Sports",
+    "Games",
+    "Soccer"
+   ],
+   "S_ask": 1.02,
+   "S_bid": 0.99,
+   "S_mid": 1.005,
+   "buy_yes_edge": -0.020000000000000018,
+   "buy_no_edge": -0.010000000000000009,
+   "mid_disloc": -0.004999999999999893,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.010000000000000009,
+   "min_liq": 378628.5272,
+   "vol24": 47735.64316300001
+  },
+  {
+   "title": "Somaliland Parliamentary Election Winner",
+   "K": 4,
+   "tags": [
+    "World Elections",
+    "Elections",
+    "Politics"
+   ],
+   "S_ask": 1.073,
+   "S_bid": 0.959,
+   "S_mid": 1.016,
+   "buy_yes_edge": -0.07299999999999995,
+   "buy_no_edge": -0.041000000000000036,
+   "mid_disloc": -0.016000000000000014,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.0285,
+   "min_liq": 12668.93293,
+   "vol24": 46450.566231
+  },
+  {
+   "title": "Bosnia-Herzegovina vs. Qatar",
+   "K": 3,
+   "tags": [
+    "Soccer",
+    "FIFA World Cup",
+    "Sports"
+   ],
+   "S_ask": 1.01,
+   "S_bid": 0.98,
+   "S_mid": 0.9950000000000001,
+   "buy_yes_edge": -0.010000000000000009,
+   "buy_no_edge": -0.020000000000000018,
+   "mid_disloc": 0.004999999999999893,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.010000000000000009,
+   "min_liq": 361380.9951,
+   "vol24": 46007.53222899996
+  },
+  {
+   "title": "2026 Women's Wimbledon Winner",
+   "K": 46,
+   "tags": [
+    "WTA",
+    "Sports",
+    "Tennis"
+   ],
+   "S_ask": 1.111,
+   "S_bid": 0.919,
+   "S_mid": 1.015,
+   "buy_yes_edge": -0.11099999999999999,
+   "buy_no_edge": -0.08099999999999996,
+   "mid_disloc": -0.014999999999999902,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.0041739130434782605,
+   "min_liq": 2843.29131,
+   "vol24": 38361.762985
+  },
+  {
+   "title": "Iran leader end of 2026?",
+   "K": 30,
+   "tags": [
+    "Middle East",
+    "Iran",
+    "World"
+   ],
+   "S_ask": 1.017,
+   "S_bid": 0.972,
+   "S_mid": 0.9944999999999999,
+   "buy_yes_edge": -0.016999999999999904,
+   "buy_no_edge": -0.028000000000000025,
+   "mid_disloc": 0.00550000000000006,
+   "max_fee": 0.0,
+   "min_fee": 0.0,
+   "mean_spread": 0.0015,
+   "min_liq": 40983.71224,
+   "vol24": 37276.012231
+  },
+  {
+   "title": "World Cup Group K Winner",
+   "K": 4,
+   "tags": [
+    "Sports",
+    "world cup",
+    "Soccer"
+   ],
+   "S_ask": 1.026,
+   "S_bid": 0.984,
+   "S_mid": 1.005,
+   "buy_yes_edge": -0.026000000000000023,
+   "buy_no_edge": -0.016000000000000014,
+   "mid_disloc": -0.004999999999999893,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.010499999999999992,
+   "min_liq": 24180.82899,
+   "vol24": 36320.11145800001
+  },
+  {
+   "title": "When will GPT-5.6 be released?",
+   "K": 3,
+   "tags": [
+    "AI",
+    "Tech",
+    "OpenAI"
+   ],
+   "S_ask": 1.024,
+   "S_bid": 0.99,
+   "S_mid": 1.007,
+   "buy_yes_edge": -0.02400000000000002,
+   "buy_no_edge": -0.010000000000000009,
+   "mid_disloc": -0.006999999999999895,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.011333333333333338,
+   "min_liq": 9584.36667,
+   "vol24": 35073.638375
+  },
+  {
+   "title": "Brazil vs. Haiti - Halftime Result",
+   "K": 3,
+   "tags": [
+    "Games",
+    "FIFA World Cup",
+    "Soccer"
+   ],
+   "S_ask": 1.02,
+   "S_bid": 0.99,
+   "S_mid": 1.005,
+   "buy_yes_edge": -0.020000000000000018,
+   "buy_no_edge": -0.010000000000000009,
+   "mid_disloc": -0.004999999999999893,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.010000000000000004,
+   "min_liq": 125737.0558,
+   "vol24": 32951.55396500001
+  },
+  {
+   "title": "T\u00fcrkiye vs. United States",
+   "K": 3,
+   "tags": [
+    "Games",
+    "FIFA World Cup",
+    "Soccer"
+   ],
+   "S_ask": 1.02,
+   "S_bid": 0.99,
+   "S_mid": 1.005,
+   "buy_yes_edge": -0.020000000000000018,
+   "buy_no_edge": -0.010000000000000009,
+   "mid_disloc": -0.004999999999999893,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.00999999999999999,
+   "min_liq": 304550.7614,
+   "vol24": 32629.956426999986
+  },
+  {
+   "title": "World Cup Group L Winner",
+   "K": 4,
+   "tags": [
+    "Sports",
+    "world cup",
+    "Soccer"
+   ],
+   "S_ask": 1.0230000000000001,
+   "S_bid": 0.991,
+   "S_mid": 1.0070000000000001,
+   "buy_yes_edge": -0.02300000000000013,
+   "buy_no_edge": -0.009000000000000008,
+   "mid_disloc": -0.007000000000000117,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.008000000000000004,
+   "min_liq": 28698.29681,
+   "vol24": 31778.747904
+  },
+  {
+   "title": "Netherlands vs. Sweden - Exact Score",
+   "K": 17,
+   "tags": [
+    "Sports",
+    "Soccer",
+    "Games"
+   ],
+   "S_ask": 1.158,
+   "S_bid": 0.929,
+   "S_mid": 1.0435,
+   "buy_yes_edge": -0.15799999999999992,
+   "buy_no_edge": -0.07099999999999995,
+   "mid_disloc": -0.043500000000000094,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.01347058823529412,
+   "min_liq": 14647.15771,
+   "vol24": 29517.064346
+  },
+  {
+   "title": "Valorant Masters London 2026: Winner",
+   "K": 4,
+   "tags": [
+    "Esports",
+    "Sports",
+    "Valorant"
+   ],
+   "S_ask": 1.011,
+   "S_bid": 0.906,
+   "S_mid": 0.9584999999999999,
+   "buy_yes_edge": -0.010999999999999899,
+   "buy_no_edge": -0.09399999999999997,
+   "mid_disloc": 0.04150000000000009,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.02624999999999998,
+   "min_liq": 2132.515,
+   "vol24": 28350.917781
+  },
+  {
+   "title": "Ballon d'Or Winner 2026",
+   "K": 25,
+   "tags": [
+    "Soccer"
+   ],
+   "S_ask": 1.105,
+   "S_bid": 0.946,
+   "S_mid": 1.0255,
+   "buy_yes_edge": -0.10499999999999998,
+   "buy_no_edge": -0.05400000000000005,
+   "mid_disloc": -0.025500000000000078,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.006360000000000001,
+   "min_liq": 16901.78317,
+   "vol24": 26325.517440999996
+  },
+  {
+   "title": "Scotland vs. Morocco - Halftime Result",
+   "K": 3,
+   "tags": [
+    "Soccer",
+    "Sports",
+    "FIFA World Cup"
+   ],
+   "S_ask": 1.02,
+   "S_bid": 0.99,
+   "S_mid": 1.0050000000000001,
+   "buy_yes_edge": -0.020000000000000018,
+   "buy_no_edge": -0.010000000000000009,
+   "mid_disloc": -0.0050000000000001155,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.00999999999999999,
+   "min_liq": 204930.77,
+   "vol24": 26131.472415999997
+  },
+  {
+   "title": "How many 6.5 or above earthquakes June 15 - June 21?",
+   "K": 7,
+   "tags": [
+    "earthquake",
+    "Earthquakes",
+    "Weather"
+   ],
+   "S_ask": 1.664,
+   "S_bid": 0.5569999999999999,
+   "S_mid": 1.1105,
+   "buy_yes_edge": -0.6639999999999999,
+   "buy_no_edge": -0.44300000000000006,
+   "mid_disloc": -0.11050000000000004,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.15814285714285714,
+   "min_liq": 337.96259,
+   "vol24": 25469.707385999995
+  },
+  {
+   "title": "Norway vs. Senegal",
+   "K": 3,
+   "tags": [
+    "Sports",
+    "Soccer",
+    "FIFA World Cup"
+   ],
+   "S_ask": 1.02,
+   "S_bid": 0.99,
+   "S_mid": 1.005,
+   "buy_yes_edge": -0.020000000000000018,
+   "buy_no_edge": -0.010000000000000009,
+   "mid_disloc": -0.004999999999999893,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.010000000000000009,
+   "min_liq": 365021.8153,
+   "vol24": 25393.563541999993
+  },
+  {
+   "title": "Uruguay vs. Cabo Verde",
+   "K": 3,
+   "tags": [
+    "Soccer",
+    "Games",
+    "Sports"
+   ],
+   "S_ask": 1.03,
+   "S_bid": 1.0,
+   "S_mid": 1.0150000000000001,
+   "buy_yes_edge": -0.030000000000000027,
+   "buy_no_edge": 0.0,
+   "mid_disloc": -0.015000000000000124,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.010000000000000004,
+   "min_liq": 442217.8774,
+   "vol24": 24764.594800000006
+  },
+  {
+   "title": "OpenAI IPO Closing Market Cap",
+   "K": 7,
+   "tags": [
+    "Big Tech",
+    "OpenAI",
+    "IPO"
+   ],
+   "S_ask": 0.993,
+   "S_bid": 0.768,
+   "S_mid": 0.8805000000000001,
+   "buy_yes_edge": 0.007000000000000006,
+   "buy_no_edge": -0.23199999999999998,
+   "mid_disloc": 0.11949999999999994,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.03214285714285714,
+   "min_liq": 8942.27171,
+   "vol24": 22517.628777
+  },
+  {
+   "title": "United States vs. Australia - Second Half Result",
+   "K": 3,
+   "tags": [
+    "Games",
+    "FIFA World Cup",
+    "Soccer"
+   ],
+   "S_ask": 1.02,
+   "S_bid": 0.95,
+   "S_mid": 0.985,
+   "buy_yes_edge": -0.020000000000000018,
+   "buy_no_edge": -0.050000000000000044,
+   "mid_disloc": 0.015000000000000013,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.023333333333333355,
+   "min_liq": 34216.1915,
+   "vol24": 22019.321477
+  },
+  {
+   "title": "June Inflation US - Annual",
+   "K": 12,
+   "tags": [
+    "Macro Indicators",
+    "CPI",
+    "Economy"
+   ],
+   "S_ask": 1.087,
+   "S_bid": 0.929,
+   "S_mid": 1.008,
+   "buy_yes_edge": -0.08699999999999997,
+   "buy_no_edge": -0.07099999999999995,
+   "mid_disloc": -0.008000000000000007,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.013166666666666667,
+   "min_liq": 11481.14096,
+   "vol24": 20455.012461
+  },
+  {
+   "title": "Ecuador vs. Cura\u00e7ao - Exact Score",
+   "K": 17,
+   "tags": [
+    "Soccer",
+    "Sports",
+    "FIFA World Cup"
+   ],
+   "S_ask": 1.209,
+   "S_bid": 0.966,
+   "S_mid": 1.0875,
+   "buy_yes_edge": -0.20900000000000007,
+   "buy_no_edge": -0.03400000000000003,
+   "mid_disloc": -0.08749999999999991,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.014294117647058825,
+   "min_liq": 9178.1006,
+   "vol24": 20222.736568
+  },
+  {
+   "title": "Quebec General Election Winner",
+   "K": 6,
+   "tags": [
+    "World",
+    "World Elections",
+    "Elections"
+   ],
+   "S_ask": 0.97,
+   "S_bid": 0.915,
+   "S_mid": 0.9425,
+   "buy_yes_edge": 0.030000000000000027,
+   "buy_no_edge": -0.08499999999999996,
+   "mid_disloc": 0.057499999999999996,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.00916666666666667,
+   "min_liq": 21957.9176,
+   "vol24": 19572.608884
+  },
+  {
+   "title": "Spain vs. Saudi Arabia - Exact Score",
+   "K": 17,
+   "tags": [
+    "FIFA World Cup",
+    "Soccer",
+    "Sports"
+   ],
+   "S_ask": 1.199,
+   "S_bid": 0.9550000000000001,
+   "S_mid": 1.077,
+   "buy_yes_edge": -0.19900000000000007,
+   "buy_no_edge": -0.04499999999999993,
+   "mid_disloc": -0.07699999999999996,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.01435294117647059,
+   "min_liq": 11412.6524,
+   "vol24": 19537.461865999998
+  },
+  {
+   "title": "Largest Company end of December 2026?",
+   "K": 8,
+   "tags": [
+    "Economy",
+    "Business",
+    "Finance"
+   ],
+   "S_ask": 1.036,
+   "S_bid": 0.999,
+   "S_mid": 1.0175,
+   "buy_yes_edge": -0.03600000000000003,
+   "buy_no_edge": -0.0010000000000000009,
+   "mid_disloc": -0.01750000000000007,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.004625000000000003,
+   "min_liq": 71517.0055,
+   "vol24": 18942.482073
+  },
+  {
+   "title": "Germany vs. C\u00f4te d'Ivoire - Exact Score",
+   "K": 17,
+   "tags": [
+    "Sports",
+    "Soccer",
+    "Games"
+   ],
+   "S_ask": 1.098,
+   "S_bid": 0.914,
+   "S_mid": 1.006,
+   "buy_yes_edge": -0.09800000000000009,
+   "buy_no_edge": -0.08599999999999997,
+   "mid_disloc": -0.006000000000000005,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.010823529411764706,
+   "min_liq": 8256.1962,
+   "vol24": 17986.853068
+  },
+  {
+   "title": "Balance of Power: 2026 Midterms",
+   "K": 5,
+   "tags": [
+    "Politics",
+    "US Election",
+    "Elections"
+   ],
+   "S_ask": 0.987,
+   "S_bid": 0.955,
+   "S_mid": 0.971,
+   "buy_yes_edge": 0.013000000000000012,
+   "buy_no_edge": -0.04500000000000004,
+   "mid_disloc": 0.029000000000000026,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.0064000000000000055,
+   "min_liq": 114719.04639,
+   "vol24": 17695.453221
+  },
+  {
+   "title": "World Cup: Golden Ball Winner",
+   "K": 20,
+   "tags": [
+    "Soccer",
+    "Sports",
+    "world cup"
+   ],
+   "S_ask": 1.135,
+   "S_bid": 0.8230000000000001,
+   "S_mid": 0.979,
+   "buy_yes_edge": -0.135,
+   "buy_no_edge": -0.17699999999999994,
+   "mid_disloc": 0.02100000000000002,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.0156,
+   "min_liq": 25820.6314,
+   "vol24": 16967.241774000002
+  },
+  {
+   "title": "MSI 2026: Winner ",
+   "K": 11,
+   "tags": [
+    "Sports",
+    "Esports",
+    "league of legends"
+   ],
+   "S_ask": 1.072,
+   "S_bid": 0.993,
+   "S_mid": 1.0325,
+   "buy_yes_edge": -0.07200000000000006,
+   "buy_no_edge": -0.007000000000000006,
+   "mid_disloc": -0.03249999999999997,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.007181818181818181,
+   "min_liq": 3290.92634,
+   "vol24": 16333.128733000001
+  },
+  {
+   "title": "Colombia Presidential Election Runoff: Turnout",
+   "K": 5,
+   "tags": [
+    "Elections",
+    "Politics",
+    "Colombia"
+   ],
+   "S_ask": 1.056,
+   "S_bid": 1.002,
+   "S_mid": 1.0290000000000001,
+   "buy_yes_edge": -0.05600000000000005,
+   "buy_no_edge": 0.0020000000000000018,
+   "mid_disloc": -0.029000000000000137,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.010800000000000004,
+   "min_liq": 10547.80469,
+   "vol24": 16181.794166
+  },
+  {
+   "title": "World Cup Group J Winner",
+   "K": 4,
+   "tags": [
+    "world cup",
+    "Soccer",
+    "Sports"
+   ],
+   "S_ask": 1.007,
+   "S_bid": 0.984,
+   "S_mid": 0.9954999999999999,
+   "buy_yes_edge": -0.006999999999999895,
+   "buy_no_edge": -0.016000000000000014,
+   "mid_disloc": 0.0045000000000000595,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.005750000000000004,
+   "min_liq": 44474.2316,
+   "vol24": 15849.792939000004
+  },
+  {
+   "title": "Test Series England vs. New Zealand: England vs New Zealand",
+   "K": 3,
+   "tags": [
+    "Sports",
+    "Games",
+    "Cricket"
+   ],
+   "S_ask": 1.151,
+   "S_bid": 0.97,
+   "S_mid": 1.0605,
+   "buy_yes_edge": -0.15100000000000002,
+   "buy_no_edge": -0.030000000000000027,
+   "mid_disloc": -0.0605,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.0603333333333333,
+   "min_liq": 1354.6449,
+   "vol24": 15257.222155000003
+  },
+  {
+   "title": "Colombia Presidential Election Runoff: Margin of Victory",
+   "K": 5,
+   "tags": [
+    "Colombia",
+    "Elections",
+    "Politics"
+   ],
+   "S_ask": 1.019,
+   "S_bid": 0.976,
+   "S_mid": 0.9974999999999999,
+   "buy_yes_edge": -0.018999999999999906,
+   "buy_no_edge": -0.02400000000000002,
+   "mid_disloc": 0.0025000000000000577,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.008599999999999997,
+   "min_liq": 20867.8853,
+   "vol24": 14723.417115
+  },
+  {
+   "title": "Highest temperature in Guangzhou on June 20?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.1480000000000001,
+   "S_bid": 1.0110000000000001,
+   "S_mid": 1.0795000000000001,
+   "buy_yes_edge": -0.14800000000000013,
+   "buy_no_edge": 0.01100000000000012,
+   "mid_disloc": -0.07950000000000013,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.012454545454545456,
+   "min_liq": 1734.4624,
+   "vol24": 14587.706124999999
+  },
+  {
+   "title": "Highest temperature in London on June 21?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.0859999999999999,
+   "S_bid": 0.979,
+   "S_mid": 1.0325,
+   "buy_yes_edge": -0.08599999999999985,
+   "buy_no_edge": -0.02100000000000002,
+   "mid_disloc": -0.03249999999999997,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.00972727272727272,
+   "min_liq": 3423.17519,
+   "vol24": 14340.576221
+  },
+  {
+   "title": "S\u00e3o Paulo Governor Election Winner",
+   "K": 5,
+   "tags": [
+    "Brazil",
+    "Main Election",
+    "Politics"
+   ],
+   "S_ask": 1.034,
+   "S_bid": 0.9390000000000001,
+   "S_mid": 0.9865,
+   "buy_yes_edge": -0.03400000000000003,
+   "buy_no_edge": -0.06099999999999994,
+   "mid_disloc": 0.013499999999999956,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.019000000000000006,
+   "min_liq": 12438.36858,
+   "vol24": 14134.841562
+  },
+  {
+   "title": "Highest temperature in Dallas on June 20?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.01,
+   "S_bid": 0.89,
+   "S_mid": 0.9500000000000001,
+   "buy_yes_edge": -0.010000000000000009,
+   "buy_no_edge": -0.10999999999999999,
+   "mid_disloc": 0.04999999999999993,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.010909090909090905,
+   "min_liq": 2976.6268,
+   "vol24": 14028.722788
+  },
+  {
+   "title": "England vs. Ghana",
+   "K": 3,
+   "tags": [
+    "Sports",
+    "Games",
+    "FIFA World Cup"
+   ],
+   "S_ask": 1.03,
+   "S_bid": 1.0,
+   "S_mid": 1.0150000000000001,
+   "buy_yes_edge": -0.030000000000000027,
+   "buy_no_edge": 0.0,
+   "mid_disloc": -0.015000000000000124,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.01,
+   "min_liq": 357589.8993,
+   "vol24": 13509.050878
+  },
+  {
+   "title": "Scotland vs. Morocco - First Team to Score",
+   "K": 3,
+   "tags": [
+    "Games",
+    "Soccer",
+    "FIFA World Cup"
+   ],
+   "S_ask": 1.03,
+   "S_bid": 1.0,
+   "S_mid": 1.0150000000000001,
+   "buy_yes_edge": -0.030000000000000027,
+   "buy_no_edge": 0.0,
+   "mid_disloc": -0.015000000000000124,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.010000000000000004,
+   "min_liq": 33220.9437,
+   "vol24": 12754.726783999999
+  },
+  {
+   "title": "Bitcoin price on June 22?",
+   "K": 11,
+   "tags": [
+    "Hide From New",
+    "Weekly",
+    "Crypto"
+   ],
+   "S_ask": 1.084,
+   "S_bid": 0.9219999999999999,
+   "S_mid": 1.0030000000000001,
+   "buy_yes_edge": -0.08400000000000007,
+   "buy_no_edge": -0.07800000000000007,
+   "mid_disloc": -0.0030000000000001137,
+   "max_fee": 0.07,
+   "min_fee": 0.07,
+   "mean_spread": 0.014727272727272733,
+   "min_liq": 5700.82387,
+   "vol24": 12964.932041
+  },
+  {
+   "title": "Scotland vs. Morocco - First Team to Score",
+   "K": 3,
+   "tags": [
+    "Games",
+    "Soccer",
+    "FIFA World Cup"
+   ],
+   "S_ask": 1.03,
+   "S_bid": 1.0,
+   "S_mid": 1.0150000000000001,
+   "buy_yes_edge": -0.030000000000000027,
+   "buy_no_edge": 0.0,
+   "mid_disloc": -0.015000000000000124,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.010000000000000004,
+   "min_liq": 31170.5937,
+   "vol24": 12651.4425
+  },
+  {
+   "title": "Highest temperature in Denver on June 20?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.07,
+   "S_bid": 0.9590000000000001,
+   "S_mid": 1.0145,
+   "buy_yes_edge": -0.07000000000000006,
+   "buy_no_edge": -0.040999999999999925,
+   "mid_disloc": -0.014499999999999957,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.01009090909090909,
+   "min_liq": 1981.57859,
+   "vol24": 11669.793305
+  },
+  {
+   "title": "New Zealand vs. Egypt",
+   "K": 3,
+   "tags": [
+    "Games",
+    "Sports",
+    "Soccer"
+   ],
+   "S_ask": 1.02,
+   "S_bid": 0.99,
+   "S_mid": 1.005,
+   "buy_yes_edge": -0.020000000000000018,
+   "buy_no_edge": -0.010000000000000009,
+   "mid_disloc": -0.004999999999999893,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.01,
+   "min_liq": 386050.9941,
+   "vol24": 11447.676721
+  },
+  {
+   "title": "Norway vs. France",
+   "K": 3,
+   "tags": [
+    "Games",
+    "Sports",
+    "Soccer"
+   ],
+   "S_ask": 1.03,
+   "S_bid": 1.0,
+   "S_mid": 1.0150000000000001,
+   "buy_yes_edge": -0.030000000000000027,
+   "buy_no_edge": 0.0,
+   "mid_disloc": -0.015000000000000124,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.01,
+   "min_liq": 258037.9421,
+   "vol24": 11340.992756000001
+  },
+  {
+   "title": "World Cup Group H Winner",
+   "K": 4,
+   "tags": [
+    "Sports",
+    "Soccer",
+    "world cup"
+   ],
+   "S_ask": 1.015,
+   "S_bid": 0.991,
+   "S_mid": 1.0030000000000001,
+   "buy_yes_edge": -0.014999999999999902,
+   "buy_no_edge": -0.009000000000000008,
+   "mid_disloc": -0.0030000000000001137,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.005999999999999997,
+   "min_liq": 54930.1293,
+   "vol24": 11257.527898000002
+  },
+  {
+   "title": "World Cup: Highest-Scoring Team in Group B (Group Stage)",
+   "K": 4,
+   "tags": [
+    "FIFA World Cup",
+    "Soccer",
+    "Sports"
+   ],
+   "S_ask": 1.026,
+   "S_bid": 0.982,
+   "S_mid": 1.004,
+   "buy_yes_edge": -0.026000000000000023,
+   "buy_no_edge": -0.018000000000000016,
+   "mid_disloc": -0.0040000000000000036,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.010999999999999979,
+   "min_liq": 2594.5305,
+   "vol24": 11155.645367000001
+  },
+  {
+   "title": "Highest temperature in Austin on June 20?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.083,
+   "S_bid": 0.965,
+   "S_mid": 1.024,
+   "buy_yes_edge": -0.08299999999999996,
+   "buy_no_edge": -0.03500000000000003,
+   "mid_disloc": -0.02400000000000002,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.010727272727272726,
+   "min_liq": 2554.505,
+   "vol24": 11027.627206
+  },
+  {
+   "title": "World Cup Group I Winner",
+   "K": 4,
+   "tags": [
+    "Soccer",
+    "Sports",
+    "world cup"
+   ],
+   "S_ask": 1.01,
+   "S_bid": 0.986,
+   "S_mid": 0.998,
+   "buy_yes_edge": -0.010000000000000009,
+   "buy_no_edge": -0.014000000000000012,
+   "mid_disloc": 0.0020000000000000018,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.0060000000000000045,
+   "min_liq": 48071.28396,
+   "vol24": 10450.906256000002
+  },
+  {
+   "title": "Croatia vs. Ghana",
+   "K": 3,
+   "tags": [
+    "FIFA World Cup",
+    "Games",
+    "Soccer"
+   ],
+   "S_ask": 1.01,
+   "S_bid": 0.98,
+   "S_mid": 0.995,
+   "buy_yes_edge": -0.010000000000000009,
+   "buy_no_edge": -0.020000000000000018,
+   "mid_disloc": 0.0050000000000000044,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.010000000000000009,
+   "min_liq": 252467.6092,
+   "vol24": 10305.816100000002
+  },
+  {
+   "title": "Portugal vs. Uzbekistan",
+   "K": 3,
+   "tags": [
+    "Games",
+    "Soccer",
+    "Sports"
+   ],
+   "S_ask": 1.02,
+   "S_bid": 0.9900000000000001,
+   "S_mid": 1.005,
+   "buy_yes_edge": -0.020000000000000018,
+   "buy_no_edge": -0.009999999999999898,
+   "mid_disloc": -0.004999999999999893,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.009999999999999967,
+   "min_liq": 358106.065,
+   "vol24": 10130.988318999995
+  },
+  {
+   "title": "Highest temperature in Shanghai on June 21?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.097,
+   "S_bid": 0.9780000000000001,
+   "S_mid": 1.0374999999999999,
+   "buy_yes_edge": -0.09699999999999998,
+   "buy_no_edge": -0.02199999999999991,
+   "mid_disloc": -0.03749999999999987,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.01081818181818181,
+   "min_liq": 1828.156,
+   "vol24": 9830.828252000001
+  },
+  {
+   "title": "Highest temperature in Houston on June 20?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.073,
+   "S_bid": 0.931,
+   "S_mid": 1.002,
+   "buy_yes_edge": -0.07299999999999995,
+   "buy_no_edge": -0.06899999999999995,
+   "mid_disloc": -0.0020000000000000018,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.012909090909090908,
+   "min_liq": 1771.60827,
+   "vol24": 9715.119545
+  },
+  {
+   "title": "Toronto Mayoral Election Winner",
+   "K": 8,
+   "tags": [
+    "Canada",
+    "Politics",
+    "Toronto"
+   ],
+   "S_ask": 1.0250000000000001,
+   "S_bid": 0.997,
+   "S_mid": 1.0110000000000001,
+   "buy_yes_edge": -0.025000000000000133,
+   "buy_no_edge": -0.0030000000000000027,
+   "mid_disloc": -0.01100000000000012,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.0035000000000000022,
+   "min_liq": 9569.086,
+   "vol24": 9637.471665
+  },
+  {
+   "title": "Panama vs. Croatia",
+   "K": 3,
+   "tags": [
+    "Soccer",
+    "FIFA World Cup",
+    "Games"
+   ],
+   "S_ask": 1.02,
+   "S_bid": 0.99,
+   "S_mid": 1.005,
+   "buy_yes_edge": -0.020000000000000018,
+   "buy_no_edge": -0.010000000000000009,
+   "mid_disloc": -0.004999999999999893,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.01,
+   "min_liq": 324192.0854,
+   "vol24": 9520.086600999999
+  },
+  {
+   "title": "Highest temperature in Seattle on June 20?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.073,
+   "S_bid": 0.924,
+   "S_mid": 0.9985,
+   "buy_yes_edge": -0.07299999999999995,
+   "buy_no_edge": -0.07599999999999996,
+   "mid_disloc": 0.0014999999999999458,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.01354545454545454,
+   "min_liq": 2075.36213,
+   "vol24": 9334.051537
+  },
+  {
+   "title": "T\u00fcrkiye vs. Paraguay - Halftime Result",
+   "K": 3,
+   "tags": [
+    "Games",
+    "FIFA World Cup",
+    "Soccer"
+   ],
+   "S_ask": 1.01,
+   "S_bid": 0.98,
+   "S_mid": 0.995,
+   "buy_yes_edge": -0.010000000000000009,
+   "buy_no_edge": -0.020000000000000018,
+   "mid_disloc": 0.0050000000000000044,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.00999999999999999,
+   "min_liq": 105425.8396,
+   "vol24": 9321.61655
+  },
+  {
+   "title": "S\u00e3o Paulo Governor Election Winner",
+   "K": 5,
+   "tags": [
+    "Brazil",
+    "Main Election",
+    "Politics"
+   ],
+   "S_ask": 0.9770000000000001,
+   "S_bid": 0.9560000000000001,
+   "S_mid": 0.9665,
+   "buy_yes_edge": 0.02299999999999991,
+   "buy_no_edge": -0.04399999999999993,
+   "mid_disloc": 0.033499999999999974,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.0042000000000000015,
+   "min_liq": 17127.7327,
+   "vol24": 9244.27707
+  },
+  {
+   "title": "Ecuador vs. Germany",
+   "K": 3,
+   "tags": [
+    "Sports",
+    "Soccer",
+    "Games"
+   ],
+   "S_ask": 1.01,
+   "S_bid": 0.98,
+   "S_mid": 0.9949999999999999,
+   "buy_yes_edge": -0.010000000000000009,
+   "buy_no_edge": -0.020000000000000018,
+   "mid_disloc": 0.0050000000000001155,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.01,
+   "min_liq": 266212.7802,
+   "vol24": 9215.679088000003
+  },
+  {
+   "title": "Khamenei # posts June 16 - June 23, 2026?",
+   "K": 11,
+   "tags": [
+    "Tweet Markets",
+    "Politics"
+   ],
+   "S_ask": 3.137,
+   "S_bid": 0.371,
+   "S_mid": 1.754,
+   "buy_yes_edge": -2.137,
+   "buy_no_edge": -0.629,
+   "mid_disloc": -0.754,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.25145454545454543,
+   "min_liq": 113.46838,
+   "vol24": 9131.877823
+  },
+  {
+   "title": "World Cup: Furthest Advancing Host Nation",
+   "K": 3,
+   "tags": [
+    "Soccer",
+    "Sports",
+    "world cup"
+   ],
+   "S_ask": 1.097,
+   "S_bid": 0.871,
+   "S_mid": 0.984,
+   "buy_yes_edge": -0.09699999999999998,
+   "buy_no_edge": -0.129,
+   "mid_disloc": 0.016000000000000014,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.07533333333333334,
+   "min_liq": 669.1351,
+   "vol24": 8970.154644
+  },
+  {
+   "title": "Highest temperature in Ankara on June 21?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.053,
+   "S_bid": 0.981,
+   "S_mid": 1.017,
+   "buy_yes_edge": -0.052999999999999936,
+   "buy_no_edge": -0.019000000000000017,
+   "mid_disloc": -0.016999999999999904,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.006545454545454549,
+   "min_liq": 1729.87179,
+   "vol24": 8903.39049
+  },
+  {
+   "title": "Highest temperature in Munich on June 20?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.079,
+   "S_bid": 0.999,
+   "S_mid": 1.039,
+   "buy_yes_edge": -0.07899999999999996,
+   "buy_no_edge": -0.0010000000000000009,
+   "mid_disloc": -0.038999999999999924,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.007272727272727269,
+   "min_liq": 2479.13869,
+   "vol24": 8686.629409
+  },
+  {
+   "title": "Highest temperature in Tokyo on June 21?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.026,
+   "S_bid": 0.872,
+   "S_mid": 0.9490000000000001,
+   "buy_yes_edge": -0.026000000000000023,
+   "buy_no_edge": -0.128,
+   "mid_disloc": 0.050999999999999934,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.014,
+   "min_liq": 1639.0653,
+   "vol24": 8637.020394000001
+  },
+  {
+   "title": "NY-13 Democratic Primary Margin of Victory",
+   "K": 7,
+   "tags": [
+    "Mamdani",
+    "Zohran Mamdani",
+    "Politics"
+   ],
+   "S_ask": 1.07,
+   "S_bid": 0.795,
+   "S_mid": 0.9325,
+   "buy_yes_edge": -0.07000000000000006,
+   "buy_no_edge": -0.20499999999999996,
+   "mid_disloc": 0.0675,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.039285714285714285,
+   "min_liq": 5485.18013,
+   "vol24": 8252.795555
+  },
+  {
+   "title": "Russia Parliamentary Election Winner",
+   "K": 7,
+   "tags": [
+    "putin",
+    "Russia",
+    "World"
+   ],
+   "S_ask": 1.01,
+   "S_bid": 0.999,
+   "S_mid": 1.0045,
+   "buy_yes_edge": -0.010000000000000009,
+   "buy_no_edge": -0.0010000000000000009,
+   "mid_disloc": -0.0044999999999999485,
+   "max_fee": 0.0,
+   "min_fee": 0.0,
+   "mean_spread": 0.001571428571428572,
+   "min_liq": 23310.73671,
+   "vol24": 8251.112416999997
+  },
+  {
+   "title": "NY-13 Democratic Primary Margin of Victory",
+   "K": 7,
+   "tags": [
+    "Mamdani",
+    "Zohran Mamdani",
+    "Politics"
+   ],
+   "S_ask": 1.07,
+   "S_bid": 0.795,
+   "S_mid": 0.9325,
+   "buy_yes_edge": -0.07000000000000006,
+   "buy_no_edge": -0.20499999999999996,
+   "mid_disloc": 0.0675,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.039285714285714285,
+   "min_liq": 5229.53167,
+   "vol24": 8252.795555
+  },
+  {
+   "title": "Russia Parliamentary Election Winner",
+   "K": 7,
+   "tags": [
+    "putin",
+    "Russia",
+    "World"
+   ],
+   "S_ask": 1.01,
+   "S_bid": 0.999,
+   "S_mid": 1.0045,
+   "buy_yes_edge": -0.010000000000000009,
+   "buy_no_edge": -0.0010000000000000009,
+   "mid_disloc": -0.0044999999999999485,
+   "max_fee": 0.0,
+   "min_fee": 0.0,
+   "mean_spread": 0.001571428571428572,
+   "min_liq": 23248.81671,
+   "vol24": 8251.112416999997
+  },
+  {
+   "title": "Highest temperature in Paris on June 21?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.057,
+   "S_bid": 0.974,
+   "S_mid": 1.0155,
+   "buy_yes_edge": -0.05699999999999994,
+   "buy_no_edge": -0.026000000000000023,
+   "mid_disloc": -0.01550000000000007,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.007545454545454542,
+   "min_liq": 2059.14333,
+   "vol24": 8194.829533
+  },
+  {
+   "title": "Lowest temperature in Hong Kong on June 21?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.161,
+   "S_bid": 0.798,
+   "S_mid": 0.9795,
+   "buy_yes_edge": -0.16100000000000003,
+   "buy_no_edge": -0.20199999999999996,
+   "mid_disloc": 0.020499999999999963,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.03300000000000001,
+   "min_liq": 572.95296,
+   "vol24": 7858.590818
+  },
+  {
+   "title": "Avg. # of ships transiting Strait of Hormuz end of June?",
+   "K": 5,
+   "tags": [
+    "Oil",
+    "Iran",
+    "Hormuz"
+   ],
+   "S_ask": 1.1,
+   "S_bid": 0.935,
+   "S_mid": 1.0175,
+   "buy_yes_edge": -0.10000000000000009,
+   "buy_no_edge": -0.06499999999999995,
+   "mid_disloc": -0.01750000000000007,
+   "max_fee": 0.0,
+   "min_fee": 0.0,
+   "mean_spread": 0.032999999999999995,
+   "min_liq": 13511.2394,
+   "vol24": 7838.847038999999
+  },
+  {
+   "title": "Scotland vs. Brazil",
+   "K": 3,
+   "tags": [
+    "Games",
+    "Soccer",
+    "Sports"
+   ],
+   "S_ask": 1.02,
+   "S_bid": 0.99,
+   "S_mid": 1.005,
+   "buy_yes_edge": -0.020000000000000018,
+   "buy_no_edge": -0.010000000000000009,
+   "mid_disloc": -0.004999999999999893,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.010000000000000009,
+   "min_liq": 266936.2565,
+   "vol24": 7805.766765000002
+  },
+  {
+   "title": "Highest temperature in Istanbul on June 20?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.0759999999999998,
+   "S_bid": 0.9820000000000001,
+   "S_mid": 1.029,
+   "buy_yes_edge": -0.07599999999999985,
+   "buy_no_edge": -0.017999999999999905,
+   "mid_disloc": -0.028999999999999915,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.008545454545454535,
+   "min_liq": 1432.49936,
+   "vol24": 7647.118751
+  },
+  {
+   "title": "World Cup Group G Winner",
+   "K": 4,
+   "tags": [
+    "Sports",
+    "Soccer",
+    "world cup"
+   ],
+   "S_ask": 1.01,
+   "S_bid": 0.978,
+   "S_mid": 0.994,
+   "buy_yes_edge": -0.010000000000000009,
+   "buy_no_edge": -0.02200000000000002,
+   "mid_disloc": 0.006000000000000005,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.008000000000000004,
+   "min_liq": 35900.99161,
+   "vol24": 7504.11539
+  },
+  {
+   "title": "Highest temperature in Atlanta on June 20?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.087,
+   "S_bid": 0.988,
+   "S_mid": 1.0375,
+   "buy_yes_edge": -0.08699999999999997,
+   "buy_no_edge": -0.01200000000000001,
+   "mid_disloc": -0.03750000000000009,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.009,
+   "min_liq": 2554.1038,
+   "vol24": 7174.459097
+  },
+  {
+   "title": "Highest temperature in San Francisco on June 20?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.125,
+   "S_bid": 0.9620000000000001,
+   "S_mid": 1.0434999999999999,
+   "buy_yes_edge": -0.125,
+   "buy_no_edge": -0.03799999999999992,
+   "mid_disloc": -0.04349999999999987,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.014818181818181815,
+   "min_liq": 2157.83754,
+   "vol24": 7171.26376
+  },
+  {
+   "title": "Colombia vs. DR Congo",
+   "K": 3,
+   "tags": [
+    "Sports",
+    "Games",
+    "FIFA World Cup"
+   ],
+   "S_ask": 1.01,
+   "S_bid": 0.98,
+   "S_mid": 0.995,
+   "buy_yes_edge": -0.010000000000000009,
+   "buy_no_edge": -0.020000000000000018,
+   "mid_disloc": 0.0050000000000000044,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.010000000000000009,
+   "min_liq": 345905.6113,
+   "vol24": 7159.076844000003
+  },
+  {
+   "title": "Brazil vs. Haiti - First Team to Score",
+   "K": 3,
+   "tags": [
+    "Games",
+    "FIFA World Cup",
+    "Sports"
+   ],
+   "S_ask": 1.026,
+   "S_bid": 0.988,
+   "S_mid": 1.007,
+   "buy_yes_edge": -0.026000000000000023,
+   "buy_no_edge": -0.01200000000000001,
+   "mid_disloc": -0.006999999999999895,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.012666666666666666,
+   "min_liq": 24428.27149,
+   "vol24": 7007.591962
+  },
+  {
+   "title": "2026 U.S. Open: Third Round Leader",
+   "K": 56,
+   "tags": [
+    "U.S. Open 2026",
+    "Golf",
+    "PGA"
+   ],
+   "S_ask": 3.918,
+   "S_bid": 0.853,
+   "S_mid": 2.3855,
+   "buy_yes_edge": -2.918,
+   "buy_no_edge": -0.14700000000000002,
+   "mid_disloc": -1.3855,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.05473214285714286,
+   "min_liq": 214.20006,
+   "vol24": 6986.927858
+  },
+  {
+   "title": "Harvey Weinstein prison time?",
+   "K": 6,
+   "tags": [
+    "Courts",
+    "Culture",
+    "Movies"
+   ],
+   "S_ask": 1.044,
+   "S_bid": 0.8879999999999999,
+   "S_mid": 0.966,
+   "buy_yes_edge": -0.04400000000000004,
+   "buy_no_edge": -0.1120000000000001,
+   "mid_disloc": 0.03400000000000003,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.026000000000000002,
+   "min_liq": 1429.36427,
+   "vol24": 6876.998094
+  },
+  {
+   "title": "Highest temperature in Wuhan on June 20?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.125,
+   "S_bid": 0.943,
+   "S_mid": 1.034,
+   "buy_yes_edge": -0.125,
+   "buy_no_edge": -0.05700000000000005,
+   "mid_disloc": -0.03400000000000003,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.016545454545454547,
+   "min_liq": 985.9619,
+   "vol24": 6868.907432
+  },
+  {
+   "title": "World Cup Group F Winner",
+   "K": 4,
+   "tags": [
+    "Soccer",
+    "Sports",
+    "world cup"
+   ],
+   "S_ask": 1.033,
+   "S_bid": 0.995,
+   "S_mid": 1.014,
+   "buy_yes_edge": -0.03299999999999992,
+   "buy_no_edge": -0.0050000000000000044,
+   "mid_disloc": -0.014000000000000012,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.009500000000000007,
+   "min_liq": 60343.7322,
+   "vol24": 6844.207846
+  },
+  {
+   "title": "Uruguay vs. Cabo Verde - Exact Score",
+   "K": 17,
+   "tags": [
+    "FIFA World Cup",
+    "Soccer",
+    "Sports"
+   ],
+   "S_ask": 1.246,
+   "S_bid": 0.868,
+   "S_mid": 1.057,
+   "buy_yes_edge": -0.246,
+   "buy_no_edge": -0.132,
+   "mid_disloc": -0.05699999999999994,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.022235294117647058,
+   "min_liq": 8626.0641,
+   "vol24": 6831.311216
+  },
+  {
+   "title": "Highest temperature in Helsinki on June 20?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.102,
+   "S_bid": 0.974,
+   "S_mid": 1.038,
+   "buy_yes_edge": -0.10200000000000009,
+   "buy_no_edge": -0.026000000000000023,
+   "mid_disloc": -0.038000000000000034,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.01163636363636364,
+   "min_liq": 2406.3179,
+   "vol24": 6821.9861869999995
+  },
+  {
+   "title": "Highest temperature in Chicago on June 20?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.133,
+   "S_bid": 0.987,
+   "S_mid": 1.06,
+   "buy_yes_edge": -0.133,
+   "buy_no_edge": -0.013000000000000012,
+   "mid_disloc": -0.06000000000000005,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.013272727272727276,
+   "min_liq": 2288.5471,
+   "vol24": 6777.017991
+  },
+  {
+   "title": "Colombia vs. Portugal",
+   "K": 3,
+   "tags": [
+    "Games",
+    "Sports",
+    "Soccer"
+   ],
+   "S_ask": 1.02,
+   "S_bid": 0.99,
+   "S_mid": 1.005,
+   "buy_yes_edge": -0.020000000000000018,
+   "buy_no_edge": -0.010000000000000009,
+   "mid_disloc": -0.004999999999999893,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.00999999999999999,
+   "min_liq": 264549.533,
+   "vol24": 6752.370228
+  },
+  {
+   "title": "Jordan vs. Algeria",
+   "K": 3,
+   "tags": [
+    "Sports",
+    "Games",
+    "Soccer"
+   ],
+   "S_ask": 1.02,
+   "S_bid": 0.99,
+   "S_mid": 1.005,
+   "buy_yes_edge": -0.020000000000000018,
+   "buy_no_edge": -0.010000000000000009,
+   "mid_disloc": -0.004999999999999893,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.01,
+   "min_liq": 363303.763,
+   "vol24": 6704.419242000001
+  },
+  {
+   "title": "World Cup: Group D Second Place",
+   "K": 4,
+   "tags": [
+    "Soccer",
+    "Sports",
+    "world cup"
+   ],
+   "S_ask": 1.11,
+   "S_bid": 0.92,
+   "S_mid": 1.015,
+   "buy_yes_edge": -0.1100000000000001,
+   "buy_no_edge": -0.07999999999999996,
+   "mid_disloc": -0.014999999999999902,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.0475,
+   "min_liq": 9178.145,
+   "vol24": 6659.96005
+  },
+  {
+   "title": "Highest temperature in Qingdao on June 20?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.133,
+   "S_bid": 0.996,
+   "S_mid": 1.0645,
+   "buy_yes_edge": -0.133,
+   "buy_no_edge": -0.0040000000000000036,
+   "mid_disloc": -0.0645,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.012454545454545454,
+   "min_liq": 565.3713,
+   "vol24": 6530.815001000001
+  },
+  {
+   "title": "Bitcoin vs. Gold vs. S&P 500 in 2026",
+   "K": 3,
+   "tags": [
+    "Finance",
+    "Crypto",
+    "Bitcoin"
+   ],
+   "S_ask": 1.0,
+   "S_bid": 0.96,
+   "S_mid": 0.98,
+   "buy_yes_edge": 0.0,
+   "buy_no_edge": -0.040000000000000036,
+   "mid_disloc": 0.020000000000000018,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.013333333333333327,
+   "min_liq": 20427.0781,
+   "vol24": 6520.319401999999
+  },
+  {
+   "title": "NHL: 2027 Champion",
+   "K": 32,
+   "tags": [
+    "Sports",
+    "NHL",
+    "Stanley Cup"
+   ],
+   "S_ask": 1.591,
+   "S_bid": 0.966,
+   "S_mid": 1.2785,
+   "buy_yes_edge": -0.591,
+   "buy_no_edge": -0.03400000000000003,
+   "mid_disloc": -0.27849999999999997,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.01953125,
+   "min_liq": 33376.36761,
+   "vol24": 6242.715408999999
+  },
+  {
+   "title": "Highest temperature in Guangzhou on June 21?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.164,
+   "S_bid": 0.973,
+   "S_mid": 1.0685,
+   "buy_yes_edge": -0.16399999999999992,
+   "buy_no_edge": -0.027000000000000024,
+   "mid_disloc": -0.0685,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.017363636363636362,
+   "min_liq": 2437.45239,
+   "vol24": 6198.2595599999995
+  },
+  {
+   "title": "Israeli Legislative Election Winner",
+   "K": 6,
+   "tags": [
+    "Israel",
+    "Main Election",
+    "Global Elections"
+   ],
+   "S_ask": 0.9450000000000001,
+   "S_bid": 0.849,
+   "S_mid": 0.897,
+   "buy_yes_edge": 0.05499999999999994,
+   "buy_no_edge": -0.15100000000000002,
+   "mid_disloc": 0.10299999999999998,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.016,
+   "min_liq": 14454.79325,
+   "vol24": 6143.759691
+  },
+  {
+   "title": "Highest temperature in Sao Paulo on June 20?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.075,
+   "S_bid": 0.967,
+   "S_mid": 1.0210000000000001,
+   "buy_yes_edge": -0.07499999999999996,
+   "buy_no_edge": -0.03300000000000003,
+   "mid_disloc": -0.02100000000000013,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.009818181818181821,
+   "min_liq": 2124.03367,
+   "vol24": 5912.544709
+  },
+  {
+   "title": "Highest temperature in NYC on June 20?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.053,
+   "S_bid": 0.933,
+   "S_mid": 0.993,
+   "buy_yes_edge": -0.052999999999999936,
+   "buy_no_edge": -0.06699999999999995,
+   "mid_disloc": 0.007000000000000006,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.01090909090909091,
+   "min_liq": 1776.1028,
+   "vol24": 5813.365527999999
+  },
+  {
+   "title": "Sachsen-Anhalt Parliamentary Election Winner",
+   "K": 7,
+   "tags": [
+    "Politics",
+    "World",
+    "Global Elections"
+   ],
+   "S_ask": 1.027,
+   "S_bid": 0.9820000000000001,
+   "S_mid": 1.0045,
+   "buy_yes_edge": -0.026999999999999913,
+   "buy_no_edge": -0.017999999999999905,
+   "mid_disloc": -0.0044999999999999485,
+   "max_fee": 0.04,
+   "min_fee": 0.04,
+   "mean_spread": 0.006428571428571415,
+   "min_liq": 10446.31479,
+   "vol24": 5761.776583
+  },
+  {
+   "title": "Cura\u00e7ao vs. C\u00f4te d'Ivoire",
+   "K": 3,
+   "tags": [
+    "Games",
+    "Soccer",
+    "Sports"
+   ],
+   "S_ask": 1.02,
+   "S_bid": 0.99,
+   "S_mid": 1.005,
+   "buy_yes_edge": -0.020000000000000018,
+   "buy_no_edge": -0.010000000000000009,
+   "mid_disloc": -0.004999999999999893,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.010000000000000002,
+   "min_liq": 287021.9841,
+   "vol24": 5675.716859
+  },
+  {
+   "title": "Highest temperature in Kuala Lumpur on June 21?",
+   "K": 11,
+   "tags": [
+    "Weather",
+    "Recurring",
+    "Hide From New"
+   ],
+   "S_ask": 1.127,
+   "S_bid": 0.968,
+   "S_mid": 1.0474999999999999,
+   "buy_yes_edge": -0.127,
+   "buy_no_edge": -0.03200000000000003,
+   "mid_disloc": -0.047499999999999876,
+   "max_fee": 0.05,
+   "min_fee": 0.05,
+   "mean_spread": 0.014454545454545458,
+   "min_liq": 1989.5489,
+   "vol24": 5523.568328
+  },
+  {
+   "title": "Where will Julian Alvarez transfer?",
+   "K": 6,
+   "tags": [
+    "Soccer",
+    "Sports",
+    "Soccer Transfers"
+   ],
+   "S_ask": 0.871,
+   "S_bid": 0.773,
+   "S_mid": 0.822,
+   "buy_yes_edge": 0.129,
+   "buy_no_edge": -0.22699999999999998,
+   "mid_disloc": 0.17800000000000005,
+   "max_fee": 0.03,
+   "min_fee": 0.03,
+   "mean_spread": 0.01633333333333334,
+   "min_liq": 868.84186,
+   "vol24": 5492.153932
+  }
+ ]
+}

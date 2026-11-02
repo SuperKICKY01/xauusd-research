@@ -1,0 +1,250 @@
+2026-07-04 11:52:51,510 | INFO    | backtest.data_loader | data_loader: loaded 165437 bars from E:\project\data\xauusd_m5_full.csv (2024-01-01 23:00:00 \u2192 2026-05-06 02:35:00)
+2026-07-04 11:52:51,511 | INFO    | backtest.strategy_runner | StrategyRunner: fill_model=limit (ENTRY_AT_PROXIMAL=True).
+2026-07-04 11:52:51,673 | INFO    | backtest.strategy_runner | StrategyRunner: apply_costs=True (commission_rt=$7.00/lot, swap L/S=$-3.75/$-5.49 per lot/night).
+2026-07-04 11:52:51,674 | INFO    | backtest.strategy_runner | StrategyRunner: dd_mod_enabled=False (ruin=$90,000, gamma=2.0) — DD-modulated sizing off (baseline).
+2026-07-04 11:52:51,675 | INFO    | backtest.strategy_runner | StrategyRunner: replaying 165237 entry-TF bars (lookback=200, balance=$100,000.00, risk=0.65%).
+2026-07-04 11:53:37,491 | INFO    | backtest.strategy_runner |   …  1.5%  bar 2700/165437  signals=0  open=0  closed=0  balance=$100,000.00  (45.8s)
+2026-07-04 11:54:46,649 | INFO    | backtest.strategy_runner |   …  1.8%  bar 3200/165437  signals=0  open=0  closed=0  balance=$100,000.00  (115.0s)
+2026-07-04 11:55:54,457 | INFO    | backtest.strategy_runner |   …  2.1%  bar 3700/165437  signals=0  open=0  closed=0  balance=$100,000.00  (182.8s)
+2026-07-04 11:57:05,825 | INFO    | backtest.strategy_runner |   …  2.4%  bar 4200/165437  signals=0  open=0  closed=0  balance=$100,000.00  (254.2s)
+2026-07-04 11:58:16,036 | INFO    | backtest.strategy_runner |   …  2.7%  bar 4700/165437  signals=0  open=0  closed=0  balance=$100,000.00  (324.4s)
+2026-07-04 11:58:16,857 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 90/100 | Entry: 2015.75 | SL: 2017.65 | TP1: 2012.90 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 11:59:23,812 | INFO    | backtest.strategy_runner |   …  3.0%  bar 5200/165437  signals=1  open=0  closed=2  balance=$99,405.04  (392.1s)
+2026-07-04 12:00:33,987 | INFO    | backtest.strategy_runner |   …  3.3%  bar 5700/165437  signals=1  open=0  closed=2  balance=$99,405.04  (462.3s)
+2026-07-04 12:01:42,270 | INFO    | backtest.strategy_runner |   …  3.6%  bar 6200/165437  signals=1  open=0  closed=2  balance=$99,405.04  (530.6s)
+2026-07-04 12:02:51,920 | INFO    | backtest.strategy_runner |   …  3.9%  bar 6700/165437  signals=1  open=0  closed=2  balance=$99,405.04  (600.2s)
+2026-07-04 12:03:59,768 | INFO    | backtest.strategy_runner |   …  4.2%  bar 7200/165437  signals=1  open=0  closed=2  balance=$99,405.04  (668.1s)
+2026-07-04 12:05:06,907 | INFO    | backtest.strategy_runner |   …  4.5%  bar 7700/165437  signals=1  open=0  closed=2  balance=$99,405.04  (735.2s)
+2026-07-04 12:06:29,530 | INFO    | backtest.strategy_runner |   …  4.8%  bar 8200/165437  signals=1  open=0  closed=2  balance=$99,405.04  (817.9s)
+2026-07-04 12:07:47,336 | INFO    | backtest.strategy_runner |   …  5.1%  bar 8700/165437  signals=1  open=0  closed=2  balance=$99,405.04  (895.7s)
+2026-07-04 12:08:49,382 | INFO    | backtest.strategy_runner |   …  5.4%  bar 9200/165437  signals=1  open=0  closed=2  balance=$99,405.04  (957.7s)
+2026-07-04 12:09:55,104 | INFO    | backtest.strategy_runner |   …  5.7%  bar 9700/165437  signals=1  open=0  closed=2  balance=$99,405.04  (1023.4s)
+2026-07-04 12:11:07,157 | INFO    | backtest.strategy_runner |   …  6.1%  bar 10200/165437  signals=1  open=0  closed=2  balance=$99,405.04  (1095.5s)
+2026-07-04 12:12:21,788 | INFO    | backtest.strategy_runner |   …  6.4%  bar 10700/165437  signals=1  open=0  closed=2  balance=$99,405.04  (1170.1s)
+2026-07-04 12:13:36,996 | INFO    | backtest.strategy_runner |   …  6.7%  bar 11200/165437  signals=1  open=0  closed=2  balance=$99,405.04  (1245.3s)
+2026-07-04 12:14:52,161 | INFO    | backtest.strategy_runner |   …  7.0%  bar 11700/165437  signals=1  open=0  closed=2  balance=$99,405.04  (1320.5s)
+2026-07-04 12:15:38,995 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2060.55 | SL: 2054.70 | TP1: 2069.33 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:15:39,140 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2067.05 | SL: 2061.20 | TP1: 2075.83 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:15:39,455 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2067.05 | SL: 2060.71 | TP1: 2076.58 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:15:39,744 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2071.78 | SL: 2065.44 | TP1: 2081.31 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:16:08,520 | INFO    | backtest.strategy_runner |   …  7.3%  bar 12200/165437  signals=5  open=0  closed=2  balance=$99,405.04  (1396.8s)
+2026-07-04 12:16:19,489 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2097.18 | SL: 2092.35 | TP1: 2104.41 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:17:26,171 | INFO    | backtest.strategy_runner |   …  7.6%  bar 12700/165437  signals=6  open=0  closed=2  balance=$99,405.04  (1474.5s)
+2026-07-04 12:18:44,150 | INFO    | backtest.strategy_runner |   …  7.9%  bar 13200/165437  signals=6  open=0  closed=2  balance=$99,405.04  (1552.5s)
+2026-07-04 12:20:01,826 | INFO    | backtest.strategy_runner |   …  8.2%  bar 13700/165437  signals=6  open=0  closed=2  balance=$99,405.04  (1630.1s)
+2026-07-04 12:21:20,014 | INFO    | backtest.strategy_runner |   …  8.5%  bar 14200/165437  signals=6  open=0  closed=2  balance=$99,405.04  (1708.3s)
+2026-07-04 12:22:38,276 | INFO    | backtest.strategy_runner |   …  8.8%  bar 14700/165437  signals=6  open=0  closed=2  balance=$99,405.04  (1786.6s)
+2026-07-04 12:23:56,959 | INFO    | backtest.strategy_runner |   …  9.1%  bar 15200/165437  signals=6  open=0  closed=2  balance=$99,405.04  (1865.3s)
+2026-07-04 12:25:14,975 | INFO    | backtest.strategy_runner |   …  9.4%  bar 15700/165437  signals=6  open=0  closed=2  balance=$99,405.04  (1943.3s)
+2026-07-04 12:26:33,947 | INFO    | backtest.strategy_runner |   …  9.7%  bar 16200/165437  signals=6  open=0  closed=2  balance=$99,405.04  (2022.3s)
+2026-07-04 12:27:38,385 | INFO    | backtest.strategy_runner |   … 10.0%  bar 16700/165437  signals=6  open=0  closed=2  balance=$99,405.04  (2086.7s)
+2026-07-04 12:28:11,704 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 90/100 | Entry: 2181.61 | SL: 2178.42 | TP1: 2186.39 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:28:12,089 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 90/100 | Entry: 2187.01 | SL: 2184.23 | TP1: 2191.18 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:28:13,180 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 90/100 | Entry: 2187.01 | SL: 2184.24 | TP1: 2191.17 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:28:14,720 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 75/100 | Entry: 2187.01 | SL: 2184.28 | TP1: 2191.10 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:28:16,303 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 75/100 | Entry: 2187.01 | SL: 2184.29 | TP1: 2191.08 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:28:16,464 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 90/100 | Entry: 2181.61 | SL: 2178.48 | TP1: 2186.30 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:28:17,828 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 90/100 | Entry: 2181.61 | SL: 2178.52 | TP1: 2186.25 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:28:19,313 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 90/100 | Entry: 2181.61 | SL: 2178.55 | TP1: 2186.20 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:28:19,437 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 90/100 | Entry: 2187.01 | SL: 2184.36 | TP1: 2190.99 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:28:19,560 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 90/100 | Entry: 2181.61 | SL: 2178.55 | TP1: 2186.20 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:28:20,808 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 90/100 | Entry: 2181.61 | SL: 2178.60 | TP1: 2186.13 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:28:22,361 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 90/100 | Entry: 2187.01 | SL: 2184.42 | TP1: 2190.90 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:28:22,483 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 90/100 | Entry: 2181.61 | SL: 2178.61 | TP1: 2186.11 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:28:40,443 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 90/100 | Entry: 2187.01 | SL: 2184.31 | TP1: 2191.06 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:28:41,244 | INFO    | backtest.strategy_runner |   … 10.3%  bar 17200/165437  signals=20  open=0  closed=2  balance=$99,405.04  (2149.6s)
+2026-07-04 12:28:41,920 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2208.80 | SL: 2203.06 | TP1: 2217.39 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:28:43,659 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 90/100 | Entry: 2187.01 | SL: 2184.23 | TP1: 2191.19 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:29:44,023 | INFO    | backtest.strategy_runner |   … 10.6%  bar 17700/165437  signals=22  open=0  closed=2  balance=$99,405.04  (2212.3s)
+2026-07-04 12:30:47,147 | INFO    | backtest.strategy_runner |   … 10.9%  bar 18200/165437  signals=22  open=0  closed=2  balance=$99,405.04  (2275.5s)
+2026-07-04 12:31:50,667 | INFO    | backtest.strategy_runner |   … 11.2%  bar 18700/165437  signals=22  open=0  closed=2  balance=$99,405.04  (2339.0s)
+2026-07-04 12:31:58,607 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2338.53 | SL: 2326.60 | TP1: 2356.43 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:31:59,036 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2338.53 | SL: 2326.81 | TP1: 2356.10 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:32:00,493 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2338.53 | SL: 2327.25 | TP1: 2355.46 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:32:55,547 | INFO    | backtest.strategy_runner |   … 11.5%  bar 19200/165437  signals=25  open=0  closed=2  balance=$99,405.04  (2403.9s)
+2026-07-04 12:34:01,042 | INFO    | backtest.strategy_runner |   … 11.8%  bar 19700/165437  signals=25  open=0  closed=2  balance=$99,405.04  (2469.4s)
+2026-07-04 12:35:05,286 | INFO    | backtest.strategy_runner |   … 12.1%  bar 20200/165437  signals=25  open=0  closed=2  balance=$99,405.04  (2533.6s)
+2026-07-04 12:35:55,545 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2385.32 | SL: 2374.34 | TP1: 2401.80 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:35:55,804 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2385.32 | SL: 2373.85 | TP1: 2402.54 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:36:10,285 | INFO    | backtest.strategy_runner |   … 12.4%  bar 20700/165437  signals=27  open=0  closed=4  balance=$99,198.14  (2598.6s)
+2026-07-04 12:37:16,716 | INFO    | backtest.strategy_runner |   … 12.7%  bar 21200/165437  signals=27  open=0  closed=4  balance=$99,198.14  (2665.0s)
+2026-07-04 12:38:03,866 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 75/100 | Entry: 2367.59 | SL: 2371.96 | TP1: 2361.03 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:07,158 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 75/100 | Entry: 2367.59 | SL: 2371.87 | TP1: 2361.17 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:10,333 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 75/100 | Entry: 2367.59 | SL: 2371.77 | TP1: 2361.32 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:12,379 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2348.16 | SL: 2356.85 | TP1: 2335.11 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:13,335 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2348.16 | SL: 2357.47 | TP1: 2334.19 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:13,464 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 100/100 | Entry: 2367.59 | SL: 2372.04 | TP1: 2360.91 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:13,588 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2348.16 | SL: 2357.47 | TP1: 2334.19 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:16,569 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 90/100 | Entry: 2367.59 | SL: 2372.11 | TP1: 2360.82 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:19,727 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 75/100 | Entry: 2367.59 | SL: 2372.07 | TP1: 2360.88 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:22,088 | INFO    | backtest.strategy_runner |   … 13.0%  bar 21700/165437  signals=36  open=0  closed=4  balance=$99,198.14  (2730.4s)
+2026-07-04 12:38:22,906 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 75/100 | Entry: 2367.59 | SL: 2371.97 | TP1: 2361.03 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:25,960 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 75/100 | Entry: 2367.59 | SL: 2371.85 | TP1: 2361.21 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:27,548 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 75/100 | Entry: 2367.59 | SL: 2371.80 | TP1: 2361.28 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:30,817 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 75/100 | Entry: 2367.59 | SL: 2371.71 | TP1: 2361.42 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:33,429 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2312.21 | SL: 2322.07 | TP1: 2297.42 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:33,686 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2304.31 | SL: 2314.17 | TP1: 2289.52 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:33,815 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2304.31 | SL: 2314.61 | TP1: 2288.87 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:33,941 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 100/100 | Entry: 2367.59 | SL: 2372.24 | TP1: 2360.62 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:34,066 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2320.75 | SL: 2331.05 | TP1: 2305.31 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:34,189 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2312.21 | SL: 2322.51 | TP1: 2296.77 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:34,311 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2320.75 | SL: 2331.05 | TP1: 2305.31 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:34,563 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2312.21 | SL: 2322.51 | TP1: 2296.77 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:34,689 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2311.08 | SL: 2321.38 | TP1: 2295.64 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:34,813 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2312.21 | SL: 2322.51 | TP1: 2296.77 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:34,936 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2311.08 | SL: 2321.38 | TP1: 2295.64 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:35,192 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2304.31 | SL: 2314.61 | TP1: 2288.87 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:35,323 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2304.31 | SL: 2314.32 | TP1: 2289.29 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:36,092 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2311.08 | SL: 2321.09 | TP1: 2296.06 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:38:37,050 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 90/100 | Entry: 2367.59 | SL: 2372.13 | TP1: 2360.78 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:39:26,949 | INFO    | backtest.strategy_runner |   … 13.3%  bar 22200/165437  signals=55  open=0  closed=4  balance=$99,198.14  (2795.3s)
+2026-07-04 12:40:32,937 | INFO    | backtest.strategy_runner |   … 13.6%  bar 22700/165437  signals=55  open=0  closed=4  balance=$99,198.14  (2861.3s)
+2026-07-04 12:41:38,451 | INFO    | backtest.strategy_runner |   … 13.9%  bar 23200/165437  signals=55  open=0  closed=4  balance=$99,198.14  (2926.8s)
+2026-07-04 12:42:43,335 | INFO    | backtest.strategy_runner |   … 14.2%  bar 23700/165437  signals=55  open=0  closed=4  balance=$99,198.14  (2991.7s)
+2026-07-04 12:43:49,276 | INFO    | backtest.strategy_runner |   … 14.5%  bar 24200/165437  signals=55  open=0  closed=4  balance=$99,198.14  (3057.6s)
+2026-07-04 12:44:55,591 | INFO    | backtest.strategy_runner |   … 14.8%  bar 24700/165437  signals=55  open=0  closed=4  balance=$99,198.14  (3123.9s)
+2026-07-04 12:46:01,340 | INFO    | backtest.strategy_runner |   … 15.1%  bar 25200/165437  signals=55  open=0  closed=4  balance=$99,198.14  (3189.7s)
+2026-07-04 12:47:07,749 | INFO    | backtest.strategy_runner |   … 15.4%  bar 25700/165437  signals=55  open=0  closed=4  balance=$99,198.14  (3256.1s)
+2026-07-04 12:48:14,237 | INFO    | backtest.strategy_runner |   … 15.7%  bar 26200/165437  signals=55  open=0  closed=4  balance=$99,198.14  (3322.6s)
+2026-07-04 12:49:19,823 | INFO    | backtest.strategy_runner |   … 16.0%  bar 26700/165437  signals=55  open=0  closed=4  balance=$99,198.14  (3388.1s)
+2026-07-04 12:49:47,902 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2408.20 | SL: 2401.93 | TP1: 2417.61 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:50:03,038 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2429.73 | SL: 2421.91 | TP1: 2441.46 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:50:26,004 | INFO    | backtest.strategy_runner |   … 16.3%  bar 27200/165437  signals=57  open=0  closed=8  balance=$101,755.03  (3454.3s)
+2026-07-04 12:51:32,932 | INFO    | backtest.strategy_runner |   … 16.6%  bar 27700/165437  signals=57  open=0  closed=8  balance=$101,755.03  (3521.3s)
+2026-07-04 12:52:14,761 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2360.03 | SL: 2369.20 | TP1: 2346.28 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:52:15,142 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2360.03 | SL: 2369.22 | TP1: 2346.24 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:52:18,780 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 90/100 | Entry: 2339.58 | SL: 2344.26 | TP1: 2332.56 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:52:39,807 | INFO    | backtest.strategy_runner |   … 16.9%  bar 28200/165437  signals=60  open=0  closed=10  balance=$102,999.87  (3588.1s)
+2026-07-04 12:53:46,796 | INFO    | backtest.strategy_runner |   … 17.2%  bar 28700/165437  signals=60  open=0  closed=10  balance=$102,999.87  (3655.1s)
+2026-07-04 12:54:53,288 | INFO    | backtest.strategy_runner |   … 17.6%  bar 29200/165437  signals=60  open=0  closed=10  balance=$102,999.87  (3721.6s)
+2026-07-04 12:56:17,261 | INFO    | backtest.strategy_runner |   … 17.9%  bar 29700/165437  signals=60  open=0  closed=10  balance=$102,999.87  (3805.6s)
+2026-07-04 12:57:39,839 | INFO    | backtest.strategy_runner |   … 18.2%  bar 30200/165437  signals=60  open=0  closed=10  balance=$102,999.87  (3888.2s)
+2026-07-04 12:58:59,478 | INFO    | backtest.strategy_runner |   … 18.5%  bar 30700/165437  signals=60  open=0  closed=10  balance=$102,999.87  (3967.8s)
+2026-07-04 12:59:22,950 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 75/100 | Entry: 2372.14 | SL: 2368.83 | TP1: 2377.10 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:59:25,727 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 90/100 | Entry: 2372.14 | SL: 2368.71 | TP1: 2377.29 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 12:59:28,733 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 90/100 | Entry: 2372.14 | SL: 2368.73 | TP1: 2377.25 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:00:01,548 | INFO    | backtest.strategy_runner |   … 18.8%  bar 31200/165437  signals=63  open=0  closed=12  balance=$102,363.02  (4029.9s)
+2026-07-04 13:01:07,408 | INFO    | backtest.strategy_runner |   … 19.1%  bar 31700/165437  signals=63  open=0  closed=12  balance=$102,363.02  (4095.7s)
+2026-07-04 13:02:24,595 | INFO    | backtest.strategy_runner |   … 19.4%  bar 32200/165437  signals=63  open=0  closed=12  balance=$102,363.02  (4172.9s)
+2026-07-04 13:03:40,378 | INFO    | backtest.strategy_runner |   … 19.7%  bar 32700/165437  signals=63  open=0  closed=12  balance=$102,363.02  (4248.7s)
+2026-07-04 13:04:55,497 | INFO    | backtest.strategy_runner |   … 20.0%  bar 33200/165437  signals=63  open=0  closed=12  balance=$102,363.02  (4323.8s)
+2026-07-04 13:05:35,541 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2353.02 | SL: 2346.80 | TP1: 2362.35 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:06:03,242 | INFO    | backtest.strategy_runner |   … 20.3%  bar 33700/165437  signals=64  open=0  closed=14  balance=$102,990.54  (4391.6s)
+2026-07-04 13:06:18,931 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 75/100 | Entry: 2364.59 | SL: 2368.32 | TP1: 2358.99 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:06:22,932 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 75/100 | Entry: 2364.59 | SL: 2368.25 | TP1: 2359.10 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:06:31,452 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 75/100 | Entry: 2364.59 | SL: 2368.15 | TP1: 2359.25 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:06:33,881 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 90/100 | Entry: 2364.59 | SL: 2368.10 | TP1: 2359.33 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:06:39,319 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 75/100 | Entry: 2364.59 | SL: 2368.20 | TP1: 2359.18 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:06:43,229 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 90/100 | Entry: 2364.59 | SL: 2368.13 | TP1: 2359.29 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:07:16,380 | INFO    | backtest.strategy_runner |   … 20.6%  bar 34200/165437  signals=70  open=0  closed=14  balance=$102,990.54  (4464.7s)
+2026-07-04 13:08:34,282 | INFO    | backtest.strategy_runner |   … 20.9%  bar 34700/165437  signals=70  open=0  closed=14  balance=$102,990.54  (4542.6s)
+2026-07-04 13:09:50,770 | INFO    | backtest.strategy_runner |   … 21.2%  bar 35200/165437  signals=70  open=0  closed=14  balance=$102,990.54  (4619.1s)
+2026-07-04 13:11:07,640 | INFO    | backtest.strategy_runner |   … 21.5%  bar 35700/165437  signals=70  open=0  closed=14  balance=$102,990.54  (4696.0s)
+2026-07-04 13:12:25,167 | INFO    | backtest.strategy_runner |   … 21.8%  bar 36200/165437  signals=70  open=0  closed=14  balance=$102,990.54  (4773.5s)
+2026-07-04 13:13:05,938 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2376.39 | SL: 2370.37 | TP1: 2385.41 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:13:41,297 | INFO    | backtest.strategy_runner |   … 22.1%  bar 36700/165437  signals=71  open=0  closed=16  balance=$104,267.26  (4849.6s)
+2026-07-04 13:14:58,294 | INFO    | backtest.strategy_runner |   … 22.4%  bar 37200/165437  signals=71  open=0  closed=16  balance=$104,267.26  (4926.6s)
+2026-07-04 13:15:53,234 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2390.18 | SL: 2383.44 | TP1: 2400.30 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:15:53,380 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2404.66 | SL: 2397.91 | TP1: 2414.77 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:15:53,516 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2390.18 | SL: 2383.44 | TP1: 2400.30 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:15:53,663 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2404.66 | SL: 2397.91 | TP1: 2414.77 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:15:54,364 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2390.18 | SL: 2383.44 | TP1: 2400.30 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:15:54,973 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2404.66 | SL: 2397.91 | TP1: 2414.77 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:15:55,115 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2404.82 | SL: 2397.59 | TP1: 2415.68 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:15:56,727 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2413.43 | SL: 2406.20 | TP1: 2424.29 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:15:56,876 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2413.43 | SL: 2405.86 | TP1: 2424.80 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:16:14,083 | INFO    | backtest.strategy_runner |   … 22.7%  bar 37700/165437  signals=80  open=0  closed=16  balance=$104,267.26  (5002.4s)
+2026-07-04 13:17:30,505 | INFO    | backtest.strategy_runner |   … 23.0%  bar 38200/165437  signals=80  open=0  closed=16  balance=$104,267.26  (5078.8s)
+2026-07-04 13:18:02,785 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2449.30 | SL: 2441.68 | TP1: 2460.73 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:18:42,133 | INFO    | backtest.strategy_runner |   … 23.3%  bar 38700/165437  signals=81  open=0  closed=16  balance=$104,267.26  (5150.5s)
+2026-07-04 13:19:40,351 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2428.28 | SL: 2435.49 | TP1: 2417.46 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:19:58,706 | INFO    | backtest.strategy_runner |   … 23.6%  bar 39200/165437  signals=82  open=0  closed=18  balance=$105,501.12  (5227.0s)
+2026-07-04 13:21:14,156 | INFO    | backtest.strategy_runner |   … 23.9%  bar 39700/165437  signals=82  open=0  closed=18  balance=$105,501.12  (5302.5s)
+2026-07-04 13:22:30,307 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2383.61 | SL: 2391.43 | TP1: 2371.88 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:22:30,902 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2383.61 | SL: 2391.65 | TP1: 2371.55 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:22:32,136 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2375.30 | SL: 2383.33 | TP1: 2363.24 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:22:32,226 | INFO    | backtest.strategy_runner |   … 24.2%  bar 40200/165437  signals=85  open=0  closed=18  balance=$105,501.12  (5380.6s)
+2026-07-04 13:22:32,298 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2383.61 | SL: 2391.65 | TP1: 2371.55 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:22:32,443 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2375.30 | SL: 2383.33 | TP1: 2363.24 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:22:32,766 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2375.30 | SL: 2383.39 | TP1: 2363.15 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:22:32,935 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2383.61 | SL: 2391.70 | TP1: 2371.47 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:22:33,088 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2375.30 | SL: 2383.39 | TP1: 2363.15 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:23:49,910 | INFO    | backtest.strategy_runner |   … 24.5%  bar 40700/165437  signals=90  open=0  closed=18  balance=$105,501.12  (5458.2s)
+2026-07-04 13:25:19,931 | INFO    | backtest.strategy_runner |   … 24.8%  bar 41200/165437  signals=90  open=0  closed=18  balance=$105,501.12  (5548.3s)
+2026-07-04 13:26:40,383 | INFO    | backtest.strategy_runner |   … 25.1%  bar 41700/165437  signals=90  open=0  closed=18  balance=$105,501.12  (5628.7s)
+2026-07-04 13:28:07,875 | INFO    | backtest.strategy_runner |   … 25.4%  bar 42200/165437  signals=90  open=0  closed=18  balance=$105,501.12  (5716.2s)
+2026-07-04 13:28:13,960 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2411.20 | SL: 2425.61 | TP1: 2389.60 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:28:50,896 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 75/100 | Entry: 2407.61 | SL: 2412.45 | TP1: 2400.36 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:29:35,274 | INFO    | backtest.strategy_runner |   … 25.7%  bar 42700/165437  signals=92  open=0  closed=20  balance=$106,794.69  (5803.6s)
+2026-07-04 13:31:03,571 | INFO    | backtest.strategy_runner |   … 26.0%  bar 43200/165437  signals=92  open=0  closed=20  balance=$106,794.69  (5891.9s)
+2026-07-04 13:32:30,495 | INFO    | backtest.strategy_runner |   … 26.3%  bar 43700/165437  signals=92  open=0  closed=20  balance=$106,794.69  (5978.8s)
+2026-07-04 13:34:07,597 | INFO    | backtest.strategy_runner |   … 26.6%  bar 44200/165437  signals=92  open=0  closed=20  balance=$106,794.69  (6075.9s)
+2026-07-04 13:35:45,826 | INFO    | backtest.strategy_runner |   … 26.9%  bar 44700/165437  signals=92  open=0  closed=20  balance=$106,794.69  (6174.2s)
+2026-07-04 13:37:15,339 | INFO    | backtest.strategy_runner |   … 27.2%  bar 45200/165437  signals=92  open=0  closed=20  balance=$106,794.69  (6263.7s)
+2026-07-04 13:38:32,071 | INFO    | backtest.strategy_runner |   … 27.5%  bar 45700/165437  signals=92  open=0  closed=20  balance=$106,794.69  (6340.4s)
+2026-07-04 13:38:56,386 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2490.89 | SL: 2498.60 | TP1: 2479.33 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:38:56,544 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2484.95 | SL: 2492.66 | TP1: 2473.39 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:40:01,619 | INFO    | backtest.strategy_runner |   … 27.8%  bar 46200/165437  signals=94  open=0  closed=20  balance=$106,794.69  (6429.9s)
+2026-07-04 13:41:48,086 | INFO    | backtest.strategy_runner |   … 28.1%  bar 46700/165437  signals=94  open=0  closed=20  balance=$106,794.69  (6536.4s)
+2026-07-04 13:43:11,107 | INFO    | backtest.strategy_runner |   … 28.4%  bar 47200/165437  signals=94  open=0  closed=20  balance=$106,794.69  (6619.4s)
+2026-07-04 13:44:22,359 | INFO    | backtest.strategy_runner |   … 28.7%  bar 47700/165437  signals=94  open=0  closed=20  balance=$106,794.69  (6690.7s)
+2026-07-04 13:45:36,498 | INFO    | backtest.strategy_runner |   … 29.0%  bar 48200/165437  signals=94  open=0  closed=20  balance=$106,794.69  (6764.8s)
+2026-07-04 13:46:51,942 | INFO    | backtest.strategy_runner |   … 29.4%  bar 48700/165437  signals=94  open=0  closed=20  balance=$106,794.69  (6840.3s)
+2026-07-04 13:48:06,591 | INFO    | backtest.strategy_runner |   … 29.7%  bar 49200/165437  signals=94  open=0  closed=20  balance=$106,794.69  (6914.9s)
+2026-07-04 13:49:23,804 | INFO    | backtest.strategy_runner |   … 30.0%  bar 49700/165437  signals=94  open=0  closed=20  balance=$106,794.69  (6992.1s)
+2026-07-04 13:50:05,266 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2542.09 | SL: 2534.47 | TP1: 2553.52 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:50:05,571 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2534.27 | SL: 2526.65 | TP1: 2545.70 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:50:05,735 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2542.09 | SL: 2534.47 | TP1: 2553.52 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:50:05,889 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2534.27 | SL: 2526.65 | TP1: 2545.70 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:50:06,053 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2542.09 | SL: 2534.47 | TP1: 2553.52 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:50:06,517 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 80/100 | Entry: 2548.07 | SL: 2540.45 | TP1: 2559.49 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:50:42,250 | INFO    | backtest.strategy_runner |   … 30.3%  bar 50200/165437  signals=100  open=0  closed=22  balance=$108,006.12  (7070.6s)
+2026-07-04 13:51:05,183 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | LONG | Score: 75/100 | Entry: 2580.11 | SL: 2577.94 | TP1: 2583.36 | RR: 1:2.50 | CloudGate: NO
+2026-07-04 13:52:06,352 | INFO    | backtest.strategy_runner |   … 30.6%  bar 50700/165437  signals=101  open=0  closed=24  balance=$109,242.95  (7154.7s)
+2026-07-04 13:53:30,589 | INFO    | backtest.strategy_runner |   … 30.9%  bar 51200/165437  signals=101  open=0  closed=24  balance=$109,242.95  (7238.9s)
+2026-07-04 13:54:50,306 | INFO    | backtest.strategy_runner |   … 31.2%  bar 51700/165437  signals=101  open=0  closed=24  balance=$109,242.95  (7318.6s)
+2026-07-04 13:56:12,273 | INFO    | backtest.strategy_runner |   … 31.5%  bar 52200/165437  signals=101  open=0  closed=24  balance=$109,242.95  (7400.6s)
+2026-07-04 13:57:32,602 | INFO    | backtest.strategy_runner |   … 31.8%  bar 52700/165437  signals=101  open=0  closed=24  balance=$109,242.95  (7480.9s)
+2026-07-04 13:58:55,989 | INFO    | backtest.strategy_runner |   … 32.1%  bar 53200/165437  signals=101  open=0  closed=24  balance=$109,242.95  (7564.3s)
+2026-07-04 14:00:15,988 | INFO    | backtest.strategy_runner |   … 32.4%  bar 53700/165437  signals=101  open=0  closed=24  balance=$109,242.95  (7644.3s)
+2026-07-04 14:01:35,068 | INFO    | backtest.strategy_runner |   … 32.7%  bar 54200/165437  signals=101  open=0  closed=24  balance=$109,242.95  (7723.4s)
+2026-07-04 14:02:54,330 | INFO    | backtest.strategy_runner |   … 33.0%  bar 54700/165437  signals=101  open=0  closed=24  balance=$109,242.95  (7802.7s)
+2026-07-04 14:03:33,672 | INFO    | quant.signal_builder | \U0001f4ca SIGNAL PUBLISHED | SHORT | Score: 80/100 | Entry: 2625.28 | SL: 2634.70 | TP1: 2611.14 | RR: 1:2.50 | CloudGate: NO
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\PC\AppData\Local\Temp\claude\E--project\3dde1e69-d688-4d52-81d0-7dd37a797afd\scratchpad\calib_v1_tree\backtest\__main__.py", line 215, in <module>
+  File "C:\Users\PC\AppData\Local\Temp\claude\E--project\3dde1e69-d688-4d52-81d0-7dd37a797afd\scratchpad\calib_v1_tree\backtest\__main__.py", line 205, in main
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Temp\claude\E--project\3dde1e69-d688-4d52-81d0-7dd37a797afd\scratchpad\calib_v1_tree\backtest\__main__.py", line 73, in _run
+    broker = await strategy_runner.run(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Temp\claude\E--project\3dde1e69-d688-4d52-81d0-7dd37a797afd\scratchpad\calib_v1_tree\backtest\strategy_runner.py", line 202, in run
+    primary_win   = slice_window(primary_df,   ts, _LOOKBACK_BARS)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Temp\claude\E--project\3dde1e69-d688-4d52-81d0-7dd37a797afd\scratchpad\calib_v1_tree\backtest\data_loader.py", line 192, in slice_window
+    return cutoff.iloc[-bars:].copy()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\project\venv\Lib\site-packages\pandas\core\generic.py", line 6663, in copy
+    data = self._mgr.copy(deep=deep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\project\venv\Lib\site-packages\pandas\core\internals\managers.py", line 745, in copy
+    res._consolidate_inplace()
+  File "E:\project\venv\Lib\site-packages\pandas\core\internals\managers.py", line 1956, in _consolidate_inplace
+    self.blocks = _consolidate(self.blocks)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\project\venv\Lib\site-packages\pandas\core\internals\managers.py", line 2459, in _consolidate
+    merged_blocks, _ = _merge_blocks(
+                       ^^^^^^^^^^^^^^
+  File "E:\project\venv\Lib\site-packages\pandas\core\internals\managers.py", line 2491, in _merge_blocks
+    new_values = new_values[argsort]
+                 ~~~~~~~~~~^^^^^^^^^
+SystemError: error return without exception set

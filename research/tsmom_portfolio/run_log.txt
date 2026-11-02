@@ -1,0 +1,100 @@
+====================================================================================
+PORTFOLIO TIME-SERIES MOMENTUM — Phase 1  |  41 instruments  |  monthly rebal  |  daily
+====================================================================================
+Instruments: 41   business-day calendar 1998-01-02 -> 2026-06-19  (7426 bars)
+   active instruments 2002: 9
+   active instruments 2008: 33
+   active instruments 2013: 37
+   active instruments 2018: 37
+   active instruments 2024: 41
+   avg pairwise corr = +0.226   mean active N = 29   effective breadth N_eff ~ 4.0
+
+------------------------------------------------------------------------------------
+PER-CONFIG full-sample stats  (portfolio vol-targeted to 12%, costs on)
+------------------------------------------------------------------------------------
+     L  signal   obs   annSR  annRet%  annVol%  maxDD%  moTurn
+    63    tanh  6977    0.60      8.2     13.6   -29.4   11.45
+    63    sign  6977    0.56      7.4     13.2   -25.3   15.19
+   126    tanh  6911    0.65      8.7     13.4   -23.3    8.14
+   126    sign  6911    0.62      8.2     13.1   -26.3   10.95
+   252    tanh  6803    0.89     11.9     13.4   -27.0    5.79
+   252    sign  6803    0.89     11.6     13.0   -25.5    7.58
+
+------------------------------------------------------------------------------------
+LITERATURE SANITY  (headline L=252 tanh)
+------------------------------------------------------------------------------------
+  net (12% tgt, costs) full-sample annSR = 0.89
+  documented diversified-TSMOM Sharpe: ~1.0-1.2 (pre-2009) decaying to ~0.3-0.5 (post-2010).
+  -> our sample is ~85% post-2009; an annSR in ~0.3-0.7 is the correctness target
+     (an annSR >>1.0 would signal look-ahead/bug).
+
+------------------------------------------------------------------------------------
+COST SENSITIVITY  (headline; ETF bp/side scaled, crypto fixed 8bp)
+------------------------------------------------------------------------------------
+  0bp (gross)  annSR=0.90  annRet=12.1%
+  2bp ETF      annSR=0.89  annRet=11.9%
+  5bp ETF      annSR=0.87  annRet=11.6%
+
+------------------------------------------------------------------------------------
+SUBSAMPLE / DECAY  (headline, net)
+------------------------------------------------------------------------------------
+  window        obs   annSR  annRet%  maxDD%
+  full         6803    0.89     11.9   -27.0
+  pre-2015     3811    0.90     12.1   -18.6
+  2015-2019    1304    0.74      9.5   -27.0
+  2020-2026    1688    0.96     13.2   -16.9
+
+------------------------------------------------------------------------------------
+SPANNING  r_strat = a + b*r_bench + e  (HAC)   GATE: alpha sig & low equity-beta
+------------------------------------------------------------------------------------
+  vs SPY
+    window          n alpha_ann%    a_t     a_p    beta    b_t     R2
+    full         6803      11.40   4.51   0.000   0.048   1.64  0.005
+    pre-2015     3811      12.21   3.64   0.000  -0.017  -0.52  0.001
+    2015-2019    1304       8.56   1.45   0.148   0.080   1.10  0.007
+    2020-2026    1688      10.26   2.06   0.040   0.183   4.36  0.071
+  vs EW-basket
+    window          n alpha_ann%    a_t     a_p    beta    b_t     R2
+    full         6803      11.02   4.36   0.000   0.108   2.47  0.013
+    pre-2015     3811      11.99   3.55   0.000   0.019   0.39  0.000
+    2015-2019    1304       9.56   1.63   0.102  -0.018  -0.14  0.000
+    2020-2026    1688       8.21   1.68   0.092   0.342   5.31  0.136
+
+------------------------------------------------------------------------------------
+CPCV  N=6 k=2  (config picked on train, OOS eval; purge+embargo)
+------------------------------------------------------------------------------------
+  OOS annSR over 15 combos: mean=0.863 median=0.853 std=0.214 min=0.50 max=1.25
+  fraction OOS > 0: 100%
+  configs chosen: 252/tanh:8, 252/sign:7
+
+------------------------------------------------------------------------------------
+LOOK-AHEAD / PLACEBO  (headline; a clean TSMOM must survive extra lag &
+  REVERSE to a symmetric loss; raw isolates trend-alpha from vol-timing)
+------------------------------------------------------------------------------------
+  base (shift1)         annSR=+0.89
+  +1 trading-day lag    annSR=+0.86  (should stay strongly +)
+  +4 trading-day lag    annSR=+0.83  (should stay +)
+  REVERSED (anti-mom)   annSR=-0.92  (should be clearly negative)
+  raw book, NO port vol-target  annSR=+0.64  (trend-alpha before vol-timing)
+
+------------------------------------------------------------------------------------
+DEFLATED SHARPE  (headline, net, full sample)
+------------------------------------------------------------------------------------
+  T=6803  annSR=0.888  skew=-0.20  exKurt=+3.40
+  honest N = 6(this study) + ~80(prior program) = 86
+      N   E[maxSR|N]      DSR  verdict
+      6        0.252   0.9995  PASS(p<0.05)
+     12        0.323   0.9982  PASS(p<0.05)
+     86        0.480   0.9822  PASS(p<0.05)
+    200        0.536   0.9650  PASS(p<0.05)
+
+------------------------------------------------------------------------------------
+ECONOMICS  (headline, vol-tgt 12% x Kelly 0.3, $10k)
+------------------------------------------------------------------------------------
+  years=26.1  realized annVol=4.0%  annSR=0.89
+  CAGR=+3.7%/yr -> $+367/yr on $10k   maxDD=-8.8%
+  EXECUTABILITY: holds up to 41 levered positions; inverse-vol levers
+  low-vol bond ETFs >1x — at $10k, per-position notional is tiny and lot/again margin
+  minimums make the diversified book impractical (needs ~6-figure capital to replicate).
+
+====================================================================================

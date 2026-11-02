@@ -1,0 +1,136 @@
+══ EDITION en — paper/main.tex ══
+[PASS] recorded per-leg PF/t
+[PASS] V1 per-leg PF/t
+[PASS] V2 per-leg PF/t
+[PASS] signals V1/V2
+[PASS] PS PF V1/V2
+[PASS] PS E[R] V1/V2
+[PASS] PS t V1
+[PASS] PS t V2
+[PASS] returns
+[PASS] MaxDD
+[PASS] abstract t
+[PASS] n=77 abstract/text
+[PASS] E[R] drop %
+[PASS] PnL drop %
+[PASS] per-leg inflation
+[PASS] 62% in discussion
+[PASS] price CSV is the cited file (SHA-256)
+[PASS] bars
+[PASS] span dates
+[PASS] 28.2 months
+[PASS] lookahead legacy count
+[PASS] lookahead pass
+[PASS] 91.5% abstract
+[PASS] 11 of 12 / 55 min
+[PASS] 1,000 steps
+[PASS] IS >=2 per-signal
+[PASS] RR >=2 per-signal
+[PASS] IS all
+[PASS] RR all
+[PASS] power Sharpe
+[PASS] expected t
+[PASS] per-signal 3.045 / 0.06 corrections
+[PASS] windows inside IS
+[PASS] re-run costs off
+[PASS] WFV t
+[PASS] WFV min score 75
+[PASS] WFV none reached 3.0
+[PASS] cost-aware none reach 2.5
+[PASS] zone T1 row
+[PASS] zone T2 row
+[PASS] zone T3 row
+[PASS] zone T4 row
+[PASS] abstract zone
+[PASS] gate distance
+[PASS] DD distance
+[PASS] cost share
+[PASS] direction split
+[PASS] funnel
+[PASS] quality band
+[PASS] 406 to 187
+[PASS] CI statement
+[PASS] spec params
+[PASS] prior 3-5%
+[PASS] 0.25 slippage
+[PASS] gate G2 thresholds
+[PASS] ledger rows
+[PASS] 21.4 h
+[PASS] appendix +40/-0
+[PASS] idea 4 gate
+[PASS] idea 5
+[PASS] idea 8
+[PASS] idea 9
+[PASS] idea 10
+[PASS] idea 7
+[PASS] idea 11
+[PASS] idea 12
+[PASS] idea 13
+[PASS] fifteen ideas
+[PASS] idea 13 universe 41
+[PASS] VRP 10% cap
+[PASS] WFV correction: no trade below 75
+[PASS] forward gate 30
+[PASS] calibration config
+[PASS] trial 2/3 params
+[PASS] quoted old IS/OOS statement
+[PASS] quoted old MIN_SCORE 65
+[PASS] Harvey hurdle (literature, verified Phase 2)
+[PASS] 13 core tasks
+[PASS] nine vetoes + breaker
+[PASS] claim tags exist in claims.csv
+[PASS] no pending/recheck claims
+[PASS] HARD GATE C66/C67 resolved with live code locators
+
+[en] numeric tokens in prose: 139; verified: 139; covered only by SKIPPED checks: 0; uncovered: 0
+[en] COVERED ONLY BY SKIPPED CHECKS: -
+[en] UNCOVERED: -
+[en] RESULT: 82 PASS, 0 FAIL, 0 SKIPPED; gate PASS; ALL PASSED (exit 0)
+[th] language-dependent English checks covered by the section comparison: 47
+[th] Thai digits standing for English number words (same section): 1 9 13 15
+
+══ EDITION th — paper/main_th.tex ══
+[PASS] recorded per-leg PF/t [verbatim in th]
+[PASS] V1 per-leg PF/t [verbatim in th]
+[PASS] V2 per-leg PF/t [verbatim in th]
+[PASS] signals V1/V2 [verbatim in th]
+[PASS] PS PF V1/V2 [verbatim in th]
+[PASS] PS E[R] V1/V2 [verbatim in th]
+[PASS] PS t V1 [verbatim in th]
+[PASS] PS t V2 [verbatim in th]
+[PASS] returns [verbatim in th]
+[PASS] MaxDD [verbatim in th]
+[PASS] n=77 abstract/text [verbatim in th]
+[PASS] bars [verbatim in th]
+[PASS] span dates [verbatim in th]
+[PASS] lookahead pass [verbatim in th]
+[PASS] 91.5% abstract [verbatim in th]
+[PASS] IS >=2 per-signal [verbatim in th]
+[PASS] RR >=2 per-signal [verbatim in th]
+[PASS] IS all [verbatim in th]
+[PASS] RR all [verbatim in th]
+[PASS] power Sharpe [verbatim in th]
+[PASS] expected t [verbatim in th]
+[PASS] zone T1 row [verbatim in th]
+[PASS] zone T2 row [verbatim in th]
+[PASS] zone T3 row [verbatim in th]
+[PASS] zone T4 row [verbatim in th]
+[PASS] abstract zone [verbatim in th]
+[PASS] cost share [verbatim in th]
+[PASS] gate G2 thresholds [verbatim in th]
+[PASS] idea 9 [verbatim in th]
+[PASS] idea 7 [verbatim in th]
+[PASS] idea 13 [verbatim in th]
+[PASS] same section structure as main.tex (+ Thai glossary appendix)
+[PASS] every section has the same numbers as in main.tex
+[PASS] every section carries the same claim tags as in main.tex
+[PASS] every Thai figure caption has the same numbers as the English caption
+[PASS] no Thai digits (Arabic numerals only)
+[PASS] title date: ค.ศ. year matches main.tex and พ.ศ. = ค.ศ. + 543
+
+[th] numeric tokens in prose: 139; verified: 139; covered only by SKIPPED checks: 0; uncovered: 0
+[th] COVERED ONLY BY SKIPPED CHECKS: -
+[th] UNCOVERED: -
+[th] RESULT: 37 PASS, 0 FAIL, 0 SKIPPED; gate PASS; ALL PASSED (exit 0)
+
+OVERALL: en exit 0, th exit 0 → ALL PASSED (exit 0)

@@ -1,0 +1,73 @@
+{
+  "market": {
+    "trades": 58,
+    "wins": 19,
+    "losses": 20,
+    "be_exits": 4,
+    "timeouts": 15,
+    "win_rate_pct": 32.76,
+    "net_pnl": 5323.31,
+    "gross_win": 8686.46,
+    "gross_loss": -5056.9,
+    "profit_factor": 1.718,
+    "expectancy_per_trade": 91.78,
+    "t_stat": 2.176,
+    "avg_rr_realised": 0.363,
+    "max_drawdown_pct": 1.914,
+    "longest_win_streak": 6,
+    "longest_loss_streak": 4,
+    "initial_balance": 100000.0,
+    "final_balance": 105323.32,
+    "return_pct": 5.323,
+    "score_buckets": {
+      "75-84": {
+        "trades": 52,
+        "win_rate": 25.0,
+        "pnl": 2332.16
+      },
+      "85-100": {
+        "trades": 6,
+        "win_rate": 100.0,
+        "pnl": 2991.15
+      }
+    }
+  },
+  "limit": {
+    "trades": 32,
+    "wins": 12,
+    "losses": 14,
+    "be_exits": 2,
+    "timeouts": 4,
+    "win_rate_pct": 37.5,
+    "net_pnl": 3232.09,
+    "gross_win": 5665.37,
+    "gross_loss": -3544.04,
+    "profit_factor": 1.599,
+    "expectancy_per_trade": 101.0,
+    "t_stat": 1.598,
+    "avg_rr_realised": 0.391,
+    "max_drawdown_pct": 1.669,
+    "longest_win_streak": 6,
+    "longest_loss_streak": 6,
+    "initial_balance": 100000.0,
+    "final_balance": 103232.09,
+    "return_pct": 3.232,
+    "score_buckets": {
+      "75-84": {
+        "trades": 24,
+        "win_rate": 37.5,
+        "pnl": 2831.77
+      },
+      "85-100": {
+        "trades": 8,
+        "win_rate": 37.5,
+        "pnl": 400.32
+      }
+    }
+  },
+  "limit_fill_rate_pct": 48.48,
+  "limit_filled": 16,
+  "limit_placed": 33,
+  "limit_missed": 17,
+  "gate_pass": false
+}

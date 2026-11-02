@@ -1,0 +1,5 @@
+PASS  1000/1000 random replay steps: every H1/M15/M5 window bar closes <= decision time (100%).
+      skipped warmup draws: 13 (runner skips these too)
+      harness-v1 rule would have included a FORMING H1 bar on 915/1000 steps (91.5%) — bug real, now excluded.
+
+OK — mandatory 0.1 lookahead unit test passed 100%.

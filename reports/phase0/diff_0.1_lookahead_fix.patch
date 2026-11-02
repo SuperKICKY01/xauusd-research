@@ -1,0 +1,140 @@
+diff --git harness-v1/C:/Users/PC/AppData/Local/Temp/claude/E--project/3dde1e69-d688-4d52-81d0-7dd37a797afd/scratchpad/calib_v1_tree/backtest/data_loader.py harness-v2/backtest/data_loader.py
+index d0817fd..b6585e2 100644
+--- harness-v1/C:/Users/PC/AppData/Local/Temp/claude/E--project/3dde1e69-d688-4d52-81d0-7dd37a797afd/scratchpad/calib_v1_tree/backtest/data_loader.py
++++ harness-v2/backtest/data_loader.py
+@@ -40,6 +40,14 @@ _TF_MINUTES = {
+ }
+ 
+ 
++def tf_minutes(tf: str) -> int:
++    """Bar duration in minutes for a timeframe label (raises on unknown)."""
++    try:
++        return _TF_MINUTES[tf.upper()]
++    except KeyError:
++        raise ValueError(f"tf_minutes: unsupported timeframe '{tf}'") from None
++
++
+ def load_csv(path: str) -> pd.DataFrame:
+     """
+     Load a single OHLCV CSV. Returns a DataFrame indexed by tz-naive UTC
+@@ -177,16 +185,37 @@ def build_multi_tf_frames(
+ 
+ 
+ def slice_window(
+-    full_df: pd.DataFrame,
+-    end_ts:  pd.Timestamp,
+-    bars:    int,
++    full_df:     pd.DataFrame,
++    decision_ts: pd.Timestamp,
++    bars:        int,
++    bar_minutes: int,
+ ) -> Optional[pd.DataFrame]:
+     """
+-    Return the last `bars` candles of `full_df` at or before `end_ts`.
+-    Returns None if the resulting slice has fewer than `bars` rows
+-    (signal_builder requires a full lookback window).
++    Return the last `bars` candles of `full_df` that are FULLY CLOSED at
++    `decision_ts` (harness-v2, Phase 0.1 lookahead fix).
++
++    Contract:
++      • `full_df` is indexed by bar OPEN time (resample() uses label="left";
++        MT5 exports are open-time stamped). A bar with open time `o` and
++        duration `bar_minutes` is closed iff  o + bar_minutes <= decision_ts.
++      • `decision_ts` is the DECISION time — the close time of the entry-TF
++        bar that triggered this evaluation (NOT the bar's open/label time).
++      • Implementation: bars with open <= decision_ts - bar_minutes are
++        exactly the bars with close <= decision_ts, so a single inclusive
++        .loc slice enforces the rule for every row, not just the last one.
++
++    History: the harness-v1 version sliced .loc[:ts] with ts = the entry
++    bar's OPEN time, which kept the still-FORMING H1/M15 bar (its label is
++    <= ts but it contains up to ~55 min of future data) — a genuine HTF
++    lookahead. This version is slightly conservative vs live (live sees the
++    partial forming bar; we exclude it entirely — no partial-bar
++    reconstruction in v1, per the Phase 0 spec).
++
++    Returns None if fewer than `bars` closed rows exist (signal_builder
++    requires a full lookback window).
+     """
+-    cutoff = full_df.loc[:end_ts]
++    last_closed_open = decision_ts - pd.Timedelta(minutes=bar_minutes)
++    cutoff = full_df.loc[:last_closed_open]
+     if len(cutoff) < bars:
+         return None
+     return cutoff.iloc[-bars:].copy()
+diff --git harness-v1/C:/Users/PC/AppData/Local/Temp/claude/E--project/3dde1e69-d688-4d52-81d0-7dd37a797afd/scratchpad/calib_v1_tree/backtest/strategy_runner.py harness-v2/backtest/strategy_runner.py
+index e10091e..96b4795 100644
+--- harness-v1/C:/Users/PC/AppData/Local/Temp/claude/E--project/3dde1e69-d688-4d52-81d0-7dd37a797afd/scratchpad/calib_v1_tree/backtest/strategy_runner.py
++++ harness-v2/backtest/strategy_runner.py
+@@ -29,7 +29,7 @@ from core.event_bus import bus, Topics
+ from quant.signal_builder import signal_builder, SignalPacket, SignalBias
+ import quant.signal_builder as _sb   # module handle for the ENTRY_AT_PROXIMAL toggle
+ 
+-from backtest.data_loader import build_multi_tf_frames, slice_window
++from backtest.data_loader import build_multi_tf_frames, slice_window, tf_minutes
+ from backtest.virtual_broker import VirtualBroker
+ 
+ logger = logging.getLogger(__name__)
+@@ -191,6 +191,14 @@ class StrategyRunner:
+         t0 = time.time()
+         signal_count = 0
+ 
++        # Bar durations for the harness-v2 closed-bar window rule. The
++        # decision point at replay step i is the CLOSE of entry bar i
++        # (= its open ts + one entry-TF duration); every TF window may
++        # contain only bars fully closed by then. See slice_window().
++        primary_min   = tf_minutes(primary_tf)
++        secondary_min = tf_minutes(secondary_tf)
++        entry_min     = tf_minutes(entry_tf)
++
+         for i in range(start, total - 1):
+             ts        = entry_df.index[i]
+             next_bar  = entry_df.iloc[i + 1]
+@@ -198,10 +206,11 @@ class StrategyRunner:
+             # ── Update broker on this bar's close (resolve SL/TP) ─
+             broker.step(ts, entry_df.iloc[i])
+ 
+-            # ── Build TF window slices anchored at this ts ────────
+-            primary_win   = slice_window(primary_df,   ts, _LOOKBACK_BARS)
+-            secondary_win = slice_window(secondary_df, ts, _LOOKBACK_BARS)
+-            entry_win     = slice_window(entry_df,     ts, _LOOKBACK_BARS)
++            # ── Build TF windows of bars CLOSED at this bar's close ──
++            decision_ts = ts + pd.Timedelta(minutes=entry_min)
++            primary_win   = slice_window(primary_df,   decision_ts, _LOOKBACK_BARS, primary_min)
++            secondary_win = slice_window(secondary_df, decision_ts, _LOOKBACK_BARS, secondary_min)
++            entry_win     = slice_window(entry_df,     decision_ts, _LOOKBACK_BARS, entry_min)
+ 
+             if primary_win is None or secondary_win is None or entry_win is None:
+                 continue
+diff --git harness-v1/C:/Users/PC/AppData/Local/Temp/claude/E--project/3dde1e69-d688-4d52-81d0-7dd37a797afd/scratchpad/calib_v1_tree/tools/_expiry_fillrate_sweep.py harness-v2/tools/_expiry_fillrate_sweep.py
+index 759bc2c..d144072 100644
+--- harness-v1/C:/Users/PC/AppData/Local/Temp/claude/E--project/3dde1e69-d688-4d52-81d0-7dd37a797afd/scratchpad/calib_v1_tree/tools/_expiry_fillrate_sweep.py
++++ harness-v2/tools/_expiry_fillrate_sweep.py
+@@ -58,7 +58,7 @@ from config import CFG
+ from core.event_bus import bus, Topics
+ import quant.signal_builder as _sb
+ from quant.signal_builder import signal_builder, SignalBias
+-from backtest.data_loader import load_csv, build_multi_tf_frames, slice_window
++from backtest.data_loader import load_csv, build_multi_tf_frames, slice_window, tf_minutes
+ 
+ logger = logging.getLogger(__name__)
+ 
+@@ -97,11 +97,15 @@ async def collect_limits(df, primary_tf, secondary_tf, entry_tf):
+ 
+     placed = []   # list[(placed_ts, direction, limit_price)]
+     t0 = time.time()
++    # harness-v2 closed-bar rule (see backtest/data_loader.slice_window):
++    # decision point = close of entry bar i; windows hold only closed bars.
++    p_min, s_min, e_min = tf_minutes(primary_tf), tf_minutes(secondary_tf), tf_minutes(entry_tf)
+     for i in range(start, total - 1):
+         ts = entry_df.index[i]
+-        pw = slice_window(primary_df,   ts, LOOKBACK)
+-        sw = slice_window(secondary_df, ts, LOOKBACK)
+-        ew = slice_window(entry_df,     ts, LOOKBACK)
++        decision_ts = ts + pd.Timedelta(minutes=e_min)
++        pw = slice_window(primary_df,   decision_ts, LOOKBACK, p_min)
++        sw = slice_window(secondary_df, decision_ts, LOOKBACK, s_min)
++        ew = slice_window(entry_df,     decision_ts, LOOKBACK, e_min)
+         if pw is None or sw is None or ew is None:
+             continue
+ 

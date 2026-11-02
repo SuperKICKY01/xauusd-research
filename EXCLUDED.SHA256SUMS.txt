@@ -1,0 +1,4 @@
+86271f9b6fb4e3fd970b7991665e98a06cdc9cb80255ca690ee7841b3e859e4c  data/xauusd_m5_full.csv
+6b8b50bf6cf8be20072ad1324353fbcf56098152c03cb66b0d65dfdf0b04afb7  .claude/skills/quant-trading/lessons/2026-06-05-llm-htf-demotion.md
+8d1ab4b425c0621a0a9ed1ee8972eaa59cee88c16bf7ff2eeaf63ac84ac9ef9e  logs/chaos.log
+889e5c57dc7004ebf1f636b17fada86555c642c0cb6d296b8069c17a2f712e0c  PROJECT_STATUS.md

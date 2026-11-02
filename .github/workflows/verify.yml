@@ -1,0 +1,83 @@
+# Verifies the published evidence on every push.
+# Honest reporting: anything that cannot run here (withheld price data, unpublished live-system
+# configuration) is reported as SKIPPED in the log, as a warning annotation and in the job
+# summary. An audit that passes with skips is labelled "PASSED WITH SKIPS — not a full pass".
+name: verify
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install test dependencies
+        run: python -m pip install pandas==3.0.2 numpy==2.2.6
+
+      - name: Evidence bundle — byte-check every file against the committed hash lists
+        run: python paper/tools/build_public_bundle.py --root . --verify
+
+      - name: Unit tests that can run on the published files
+        run: |
+          python -m tests.test_per_signal_metrics
+          python -m tests.test_zone_engine
+          python -m tests.test_track_a_grader
+
+      - name: Lookahead invariant on synthetic data (1,000 random replay steps, fixed slicer must pass)
+        run: python -m tests.test_no_lookahead_synthetic
+
+      - name: Lookahead mutation check (harness-v1 slicer must FAIL the same invariant)
+        run: |
+          if python -m tests.test_no_lookahead_synthetic --slicer legacy; then
+            echo "::error title=Mutation check failed::the old slicing rule passed the lookahead invariant, so the test cannot detect the defect"
+            exit 1
+          fi
+          echo "mutation check OK: the old slicing rule fails the invariant, as it must"
+
+      - name: Tests that cannot run here (reported as SKIPPED, not as passed)
+        run: |
+          {
+            echo "### Tests"
+            echo "| test | result | reason |"
+            echo "|---|---|---|"
+            echo "| tests.test_per_signal_metrics, tests.test_zone_engine, tests.test_track_a_grader | PASS | run in a previous step |"
+            echo "| tests.test_no_lookahead_synthetic (fixed slicer) | PASS | lookahead invariant, synthetic data, 1,000 steps |"
+            echo "| tests.test_no_lookahead_synthetic --slicer legacy | FAILS AS REQUIRED | mutation check: the old rule is caught |"
+          } >> "$GITHUB_STEP_SUMMARY"
+          for t in test_no_lookahead test_zone_runner; do
+            echo "::warning title=SKIPPED tests.$t::needs the withheld price data (fetch script: data/_fetch_dukascopy_2024.py) or the unpublished live-system configuration module. Not run; not a pass."
+            echo "| tests.$t | SKIPPED | needs withheld price data or the unpublished configuration module |" >> "$GITHUB_STEP_SUMMARY"
+            if [ "$t" = test_no_lookahead ]; then
+              echo "| | | the synthetic test above covers the slicing logic; only this real-data test also covers the data |" >> "$GITHUB_STEP_SUMMARY"
+            fi
+          done
+
+      - name: Audit, both editions (expected - PASSED WITH SKIPS, because unpublished files are withheld)
+        run: |
+          set +e
+          python paper/tools/audit_paper.py --root . | tee audit_ci.txt
+          code=${PIPESTATUS[0]}
+          set -e
+          {
+            echo "### Audit"
+            echo '```'
+            grep -E "RESULT|OVERALL|^\[SKIPPED\]|^\[FAIL\]|COVERED ONLY BY SKIPPED" audit_ci.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          case "$code" in
+            0) echo "Audit: ALL PASSED" ;;
+            3) echo "::warning title=Audit PASSED WITH SKIPS — not a full pass::checks that need withheld files were skipped, not passed; see the job summary"
+               echo "**Audit: PASSED WITH SKIPS — not a full pass.** Skipped checks need files that are withheld from this repository." >> "$GITHUB_STEP_SUMMARY" ;;
+            *) echo "::error title=Audit FAILED::exit $code"; exit "$code" ;;
+          esac
